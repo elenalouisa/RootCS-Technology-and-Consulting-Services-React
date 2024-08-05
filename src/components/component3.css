@@ -1,0 +1,8 @@
+.component3-container {
+  display: flex;
+  position: relative;
+}
+
+.component3-root-class-name1 {
+  align-self: flex-start;
+}

@@ -58,7 +58,7 @@ const Navbar8 = (props) => {
                 {props.link4 ?? (
                   <Fragment>
                     <span className="navbar8-text06 thq-link thq-body-small">
-                      About Us
+                      About
                     </span>
                   </Fragment>
                 )}
@@ -159,7 +159,7 @@ const Navbar8 = (props) => {
                       {props.link4 ?? (
                         <Fragment>
                           <span className="navbar8-text06 thq-link thq-body-small">
-                            About Us
+                            About
                           </span>
                         </Fragment>
                       )}
@@ -425,7 +425,7 @@ const Navbar8 = (props) => {
 Navbar8.defaultProps = {
   link1Url1: 'https://www.teleporthq.io',
   page4ImageSrc:
-    'https://images.unsplash.com/photo-1576089235406-0612d7bb033e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1576089235406-0612d7bb033e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=200',
   page4ImageAlt: 'image',
   rootClassName: '',
   link1: undefined,
@@ -443,21 +443,21 @@ Navbar8.defaultProps = {
   page2ImageAlt: 'image',
   action1: undefined,
   page2ImageSrc:
-    'https://images.unsplash.com/photo-1594852352010-63d76b89f85f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1594852352010-63d76b89f85f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=200',
   logoAlt: 'logo',
   link1Url: 'https://www.teleporthq.io',
   link2: undefined,
   link2Url1: 'https://www.teleporthq.io',
   link3: undefined,
   page3ImageSrc:
-    'https://images.unsplash.com/photo-1498751041763-40284fe1eb66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1498751041763-40284fe1eb66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=200',
   page4Description: undefined,
   action2: undefined,
   linkUrlPage3: '#about',
   linkUrlPage2: '#services',
   page2: undefined,
   page1ImageSrc:
-    'https://images.unsplash.com/photo-1566568769534-31fe453a740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1566568769534-31fe453a740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjcxMzIwNnw&ixlib=rb-4.0.3&q=80&w=200',
   linkUrlPage4: '#contact',
   page1ImageAlt: 'image',
 }

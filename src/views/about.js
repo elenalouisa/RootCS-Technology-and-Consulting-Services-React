@@ -58,9 +58,7 @@ const About = (props) => {
         }
         link4={
           <Fragment>
-            <span className="about-text03 thq-link thq-body-small">
-              About Us
-            </span>
+            <span className="about-text03 thq-link thq-body-small">About</span>
           </Fragment>
         }
         page1={

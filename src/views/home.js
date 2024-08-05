@@ -5,8 +5,8 @@ import { Helmet } from 'react-helmet'
 import Component1 from '../components/component1'
 import Component3 from '../components/component3'
 import AppComponent from '../components/component'
-import Navbar8 from '../components/navbar8'
 import Component2 from '../components/component2'
+import Navbar8 from '../components/navbar8'
 import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
 import CTA26 from '../components/cta26'
@@ -46,6 +46,7 @@ const Home = (props) => {
         srcSet="/fulllogo-1500h.webp 1200w, /fulllogo-tablet.webp 800w, /fulllogo-mobile.webp 480w"
         className="home-image"
       />
+      <Component2></Component2>
       <Navbar8
         link1={
           <Fragment>
@@ -66,9 +67,7 @@ const Home = (props) => {
         }
         link4={
           <Fragment>
-            <span className="home-text03 thq-link thq-body-small">
-              About Us
-            </span>
+            <span className="home-text03 thq-link thq-body-small">About</span>
           </Fragment>
         }
         page1={
@@ -125,7 +124,6 @@ const Home = (props) => {
           </Fragment>
         }
       ></Navbar8>
-      <Component2></Component2>
       <Hero17
         action1={
           <Fragment>

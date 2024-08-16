@@ -6,9 +6,9 @@ import './steps2.css'
 
 const Steps2 = (props) => {
   return (
-    <div className="steps2-container thq-section-padding">
+    <div className="steps2-container1 thq-section-padding">
       <div className="steps2-max-width thq-section-max-width">
-        <div className="steps2-container1 thq-grid-2">
+        <div className="steps2-container2 thq-grid-2">
           <div className="steps2-section-header">
             <h2 className="thq-heading-2">
               Discover the Power of Our Products
@@ -52,12 +52,12 @@ const Steps2 = (props) => {
               </button>
             </div>
           </div>
-          <div className="steps2-container2">
-            <div className="steps2-container3 thq-card">
+          <div className="steps2-container3">
+            <div className="steps2-container4 thq-card">
               <h2>
                 {props.step1Title ?? (
                   <Fragment>
-                    <h2 className="steps2-text28 thq-heading-2">
+                    <h2 className="steps2-text38 thq-heading-2">
                       Initial Consultation
                     </h2>
                   </Fragment>
@@ -66,80 +66,74 @@ const Steps2 = (props) => {
               <span>
                 {props.step1Description ?? (
                   <Fragment>
-                    <span className="steps2-text23 thq-body-small">
+                    <span className="steps2-text33 thq-body-small">
                       Schedule a meeting with our team to discuss your business
                       needs and goals.
                     </span>
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text12 thq-heading-3">01</label>
+              <label className="steps2-text22 thq-heading-3">01</label>
             </div>
-            <div className="steps2-container4 thq-card">
+            <div className="steps2-container5 thq-card">
               <h2>
                 {props.step2Title ?? (
                   <Fragment>
-                    <h2 className="steps2-text22 thq-heading-2">
-                      Solution Design
-                    </h2>
+                    <h2 className="steps2-text32 thq-heading-2">Design</h2>
                   </Fragment>
                 )}
               </h2>
               <span>
                 {props.step2Description ?? (
                   <Fragment>
-                    <span className="steps2-text29 thq-body-small">
-                      Our experts will design a customized solution tailored to
-                      your specific requirements.
+                    <span className="steps2-text39 thq-body-small">
+                      Our experts will design and architect a customized
+                      solution tailored to your specific requirements.
                     </span>
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text15 thq-heading-3">02</label>
+              <label className="steps2-text25 thq-heading-3">02</label>
             </div>
-            <div className="steps2-container5 thq-card">
+            <div className="steps2-container6 thq-card">
               <h2>
                 {props.step3Title ?? (
                   <Fragment>
-                    <h2 className="steps2-text27 thq-heading-2">
-                      Implementation
-                    </h2>
+                    <h2 className="steps2-text37 thq-heading-2">Implement</h2>
                   </Fragment>
                 )}
               </h2>
               <span>
                 {props.step3Description ?? (
                   <Fragment>
-                    <span className="steps2-text26 thq-body-small">
+                    <span className="steps2-text36 thq-body-small">
                       We will efficiently implement the solution within the
                       agreed timeline and budget.
                     </span>
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text18 thq-heading-3">03</label>
+              <label className="steps2-text28 thq-heading-3">03</label>
             </div>
-            <div className="steps2-container6 thq-card">
+            <div className="steps2-container7 thq-card">
               <h2>
                 {props.step4Title ?? (
                   <Fragment>
-                    <h2 className="steps2-text24 thq-heading-2">
-                      Optimization and Support
-                    </h2>
+                    <h2 className="steps2-text34 thq-heading-2">Optimize</h2>
                   </Fragment>
                 )}
               </h2>
               <span>
                 {props.step4Description ?? (
                   <Fragment>
-                    <span className="steps2-text25 thq-body-small">
+                    <span className="steps2-text35 thq-body-small">
                       Continuous monitoring, optimization, and support to ensure
                       your business runs smoothly.
                     </span>
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text21 thq-heading-3">04</label>
+              <label className="steps2-text31 thq-heading-3">04</label>
             </div>
           </div>
         </div>

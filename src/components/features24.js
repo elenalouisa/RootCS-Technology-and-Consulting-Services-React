@@ -7,44 +7,44 @@ import './features24.css'
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
   return (
-    <div className="thq-section-padding">
-      <div className="features24-container1 thq-section-max-width">
+    <div className={`thq-section-padding ${props.rootClassName} `}>
+      <div className="features24-container2 thq-section-max-width">
         <div className="features24-image-container">
           {activeTab === 0 && (
             <img
               alt={props.feature1ImgAlt}
               src={props.feature1ImgSrc}
-              className="features24-image thq-img-ratio-16-9"
+              className="features24-image1 thq-img-ratio-16-9"
             />
           )}
           {activeTab === 1 && (
             <img
               alt={props.feature2ImgAlt}
               src={props.feature2ImgSrc}
-              className="features24-image1 thq-img-ratio-16-9"
+              className="features24-image2 thq-img-ratio-16-9"
             />
           )}
           {activeTab === 2 && (
             <img
               alt={props.feature3ImgAlt}
               src={props.feature3ImgSrc}
-              className="features24-image2 thq-img-ratio-16-9"
+              className="features24-image3 thq-img-ratio-16-9"
             />
           )}
         </div>
         <div className="features24-tabs-menu">
           <div
             onClick={() => setActiveTab(0)}
-            className="features24-tab-horizontal"
+            className="features24-tab-horizontal1"
           >
-            <div className="features24-divider-container">
-              {activeTab === 0 && <div className="features24-container2"></div>}
+            <div className="features24-divider-container1">
+              {activeTab === 0 && <div className="features24-container3"></div>}
             </div>
-            <div className="features24-content">
+            <div className="features24-content1">
               <h2>
                 {props.feature1Title ?? (
                   <Fragment>
-                    <h2 className="features24-text4 thq-heading-2">
+                    <h2 className="features24-text5 thq-heading-2">
                       Digital Transformation
                     </h2>
                   </Fragment>
@@ -53,7 +53,7 @@ const Features24 = (props) => {
               <span>
                 {props.feature1Description ?? (
                   <Fragment>
-                    <span className="features24-text1 thq-body-small">
+                    <span className="features24-text2 thq-body-small">
                       Tailored solutions for your digital journey
                     </span>
                   </Fragment>
@@ -63,16 +63,16 @@ const Features24 = (props) => {
           </div>
           <div
             onClick={() => setActiveTab(1)}
-            className="features24-tab-horizontal1"
+            className="features24-tab-horizontal2"
           >
-            <div className="features24-divider-container1">
-              {activeTab === 1 && <div className="features24-container3"></div>}
+            <div className="features24-divider-container2">
+              {activeTab === 1 && <div className="features24-container4"></div>}
             </div>
-            <div className="features24-content1">
+            <div className="features24-content2">
               <h2>
                 {props.feature2Title ?? (
                   <Fragment>
-                    <h2 className="features24-text2 thq-heading-2">
+                    <h2 className="features24-text3 thq-heading-2">
                       Process Optimization
                     </h2>
                   </Fragment>
@@ -81,7 +81,7 @@ const Features24 = (props) => {
               <span>
                 {props.feature2Description ?? (
                   <Fragment>
-                    <span className="features24-text thq-body-small">
+                    <span className="features24-text1 thq-body-small">
                       Optimize and automate ERP and CRM processes
                     </span>
                   </Fragment>
@@ -91,16 +91,16 @@ const Features24 = (props) => {
           </div>
           <div
             onClick={() => setActiveTab(2)}
-            className="features24-tab-horizontal2"
+            className="features24-tab-horizontal3"
           >
-            <div className="features24-divider-container2">
-              {activeTab === 2 && <div className="features24-container4"></div>}
+            <div className="features24-divider-container3">
+              {activeTab === 2 && <div className="features24-container5"></div>}
             </div>
-            <div className="features24-content2">
+            <div className="features24-content3">
               <h2>
                 {props.feature3Title ?? (
                   <Fragment>
-                    <h2 className="features24-text5 thq-heading-2">
+                    <h2 className="features24-text6 thq-heading-2">
                       Data and Analytics
                     </h2>
                   </Fragment>
@@ -109,7 +109,7 @@ const Features24 = (props) => {
               <span>
                 {props.feature3Description ?? (
                   <Fragment>
-                    <span className="features24-text3 thq-body-small">
+                    <span className="features24-text4 thq-body-small">
                       Utilize advanced analytics to drive business decisions
                     </span>
                   </Fragment>
@@ -127,6 +127,7 @@ Features24.defaultProps = {
   feature1ImgAlt: 'Cloud Computing',
   feature2Description: undefined,
   feature1Description: undefined,
+  rootClassName: '',
   feature2ImgSrc:
     'https://images.unsplash.com/photo-1573166364266-356ef04ae798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjc5OTcwMXw&ixlib=rb-4.0.3&q=80&w=1400',
   feature2Title: undefined,
@@ -145,6 +146,7 @@ Features24.propTypes = {
   feature1ImgAlt: PropTypes.string,
   feature2Description: PropTypes.element,
   feature1Description: PropTypes.element,
+  rootClassName: PropTypes.string,
   feature2ImgSrc: PropTypes.string,
   feature2Title: PropTypes.element,
   feature2ImgAlt: PropTypes.string,

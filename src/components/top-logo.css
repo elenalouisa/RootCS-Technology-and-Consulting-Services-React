@@ -1,0 +1,29 @@
+.top-logo-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.top-logo-image {
+  width: auto;
+  height: var(--dl-size-size-medium);
+  align-self: center;
+  object-fit: cover;
+}
+
+
+
+
+@media(max-width: 1600px) {
+  .top-logo-container {
+    height: 110px;
+    align-items: center;
+  }
+}
+@media(max-width: 479px) {
+  .top-logo-image {
+    height: 100%;
+  }
+}

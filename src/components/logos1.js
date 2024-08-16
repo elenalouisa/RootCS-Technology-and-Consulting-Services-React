@@ -6,12 +6,12 @@ import './logos1.css'
 
 const Logos1 = (props) => {
   return (
-    <div className="logos1-container thq-section-padding">
+    <div className="logos1-container1 thq-section-padding">
       <div className="logos1-max-width thq-section-max-width">
         <h2>
           {props.heading1 ?? (
             <Fragment>
-              <h2 className="logos1-text1 thq-heading-2">
+              <h2 className="logos1-text2 thq-heading-2">
                 Trusted by the world&apos;s best companies social proof to build
                 credibility
               </h2>

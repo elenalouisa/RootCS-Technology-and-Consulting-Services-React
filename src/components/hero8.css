@@ -15,6 +15,7 @@
 .hero8-content {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
+  height: 68px;
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -22,32 +23,20 @@
 }
 .hero8-actions {
   gap: var(--dl-space-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
 }
-.hero8-text4 {
-  display: inline-block;
+.hero8-hero-image {
+  height: 199px;
 }
-.hero8-text5 {
+.hero8-text2 {
   display: inline-block;
   text-align: center;
-}
-.hero8-text6 {
-  display: inline-block;
-  text-align: center;
-}
-.hero8-text7 {
-  display: inline-block;
 }
 @media(max-width: 479px) {
   .hero8-actions {
     width: 100%;
     flex-direction: column;
-  }
-  .hero8-button {
-    width: 100%;
-  }
-  .hero8-button1 {
-    width: 100%;
   }
 }

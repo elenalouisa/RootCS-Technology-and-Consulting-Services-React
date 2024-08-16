@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -9,79 +10,37 @@ const Footer4 = (props) => {
     <footer className="footer4-footer7 thq-section-padding">
       <div className="footer4-max-width thq-section-max-width">
         <div className="footer4-content">
-          <div className="footer4-logo">
+          <div className="footer4-logo1">
             <img
               alt={props.logoAlt}
               src="/fulllogo-200h.webp"
-              className="footer4-logo1"
+              className="footer4-logo2"
             />
           </div>
           <div className="footer4-links">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <Link to="/services" className="footer4-navlink1">
               {props.link1 ?? (
                 <Fragment>
-                  <span className="footer4-text11 thq-body-small">
-                    Services
-                  </span>
+                  <span className="footer4-text4 thq-body-small">Services</span>
                 </Fragment>
               )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            </Link>
+            <Link to="/about" className="footer4-navlink2">
               {props.link2 ?? (
                 <Fragment>
-                  <span className="footer4-text09 thq-body-small">
-                    About Us
-                  </span>
+                  <span className="footer4-text3 thq-body-small">About Us</span>
                 </Fragment>
               )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            </Link>
+            <Link to="/contact" className="footer4-navlink3">
               {props.link3 ?? (
                 <Fragment>
-                  <span className="footer4-text06 thq-body-small">
+                  <span className="footer4-text2 thq-body-small">
                     Contact Us
                   </span>
                 </Fragment>
               )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {props.link4 ?? (
-                <Fragment>
-                  <span className="footer4-text10 thq-body-small">
-                    Privacy Policy
-                  </span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {props.link5 ?? (
-                <Fragment>
-                  <span className="footer4-text05 thq-body-small">
-                    Terms of Service
-                  </span>
-                </Fragment>
-              )}
-            </a>
+            </Link>
           </div>
         </div>
         <div className="footer4-credits">
@@ -92,35 +51,7 @@ const Footer4 = (props) => {
                 © 2024 Root Consulting Services, LLC.
               </span>
             </div>
-            <div className="footer4-footer-links">
-              <span>
-                {props.privacyLink ?? (
-                  <Fragment>
-                    <span className="footer4-text07 thq-body-small">
-                      Privacy Policy
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-              <span>
-                {props.termsLink ?? (
-                  <Fragment>
-                    <span className="footer4-text08 thq-body-small">
-                      Terms of Service
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-              <span>
-                {props.cookiesLink ?? (
-                  <Fragment>
-                    <span className="footer4-text04 thq-body-small">
-                      Cookies Policy
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-            </div>
+            <div className="footer4-footer-links"></div>
           </div>
         </div>
       </div>
@@ -129,26 +60,16 @@ const Footer4 = (props) => {
 }
 
 Footer4.defaultProps = {
-  cookiesLink: undefined,
   logoAlt: 'Root Consulting Services Logo',
-  link5: undefined,
   link3: undefined,
-  privacyLink: undefined,
-  termsLink: undefined,
   link2: undefined,
-  link4: undefined,
   link1: undefined,
 }
 
 Footer4.propTypes = {
-  cookiesLink: PropTypes.element,
   logoAlt: PropTypes.string,
-  link5: PropTypes.element,
   link3: PropTypes.element,
-  privacyLink: PropTypes.element,
-  termsLink: PropTypes.element,
   link2: PropTypes.element,
-  link4: PropTypes.element,
   link1: PropTypes.element,
 }
 

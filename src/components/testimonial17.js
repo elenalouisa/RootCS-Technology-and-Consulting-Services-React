@@ -8,11 +8,11 @@ const Testimonial17 = (props) => {
   return (
     <div className="thq-section-padding">
       <div className="testimonial17-max-width thq-section-max-width">
-        <div className="testimonial17-container">
+        <div className="testimonial17-container10">
           <h2>
             {props.heading1 ?? (
               <Fragment>
-                <h2 className="testimonial17-text26 thq-heading-2">
+                <h2 className="testimonial17-text36 thq-heading-2">
                   Client Testimonials
                 </h2>
               </Fragment>
@@ -21,7 +21,7 @@ const Testimonial17 = (props) => {
           <span>
             {props.content1 ?? (
               <Fragment>
-                <span className="testimonial17-text20 thq-body-small">
+                <span className="testimonial17-text30 thq-body-small">
                   Root Consulting Services helped us seamlessly transition to
                   the cloud, improving our efficiency and reducing costs. Their
                   expertise in digital transformation is unmatched.
@@ -33,18 +33,21 @@ const Testimonial17 = (props) => {
         <div className="thq-grid-2">
           <div className="thq-animated-card-bg-2">
             <div className="thq-animated-card-bg-1">
-              <div data-animated="true" className="thq-card testimonial17-card">
-                <div className="testimonial17-container02">
+              <div
+                data-animated="true"
+                className="thq-card testimonial17-card1"
+              >
+                <div className="testimonial17-container12">
                   <img
                     alt={props.author1Alt}
                     src={props.author1Src}
-                    className="testimonial17-image"
+                    className="testimonial17-image1"
                   />
-                  <div className="testimonial17-container03">
+                  <div className="testimonial17-container13">
                     <strong>
                       {props.author1Name ?? (
                         <Fragment>
-                          <strong className="testimonial17-text22 thq-body-large">
+                          <strong className="testimonial17-text32 thq-body-large">
                             John Smith
                           </strong>
                         </Fragment>
@@ -53,7 +56,7 @@ const Testimonial17 = (props) => {
                     <span>
                       {props.author1Position ?? (
                         <Fragment>
-                          <span className="testimonial17-text17 thq-body-small">
+                          <span className="testimonial17-text27 thq-body-small">
                             CEO, Tech Solutions Inc.
                           </span>
                         </Fragment>
@@ -64,7 +67,7 @@ const Testimonial17 = (props) => {
                 <span>
                   {props.review1 ?? (
                     <Fragment>
-                      <span className="testimonial17-text19 thq-body-small">
+                      <span className="testimonial17-text29 thq-body-small">
                         Root Consulting Services helped us seamlessly transition
                         to the cloud, improving our efficiency and reducing
                         costs. Their expertise in digital transformation is
@@ -80,19 +83,19 @@ const Testimonial17 = (props) => {
             <div className="thq-animated-card-bg-1">
               <div
                 data-animated="true"
-                className="thq-card testimonial17-card1"
+                className="thq-card testimonial17-card2"
               >
-                <div className="testimonial17-container04">
+                <div className="testimonial17-container14">
                   <img
                     alt={props.author2Alt}
                     src={props.author2Src}
-                    className="testimonial17-image1"
+                    className="testimonial17-image2"
                   />
-                  <div className="testimonial17-container05">
+                  <div className="testimonial17-container15">
                     <strong>
                       {props.author2Name ?? (
                         <Fragment>
-                          <strong className="testimonial17-text25 thq-body-large">
+                          <strong className="testimonial17-text35 thq-body-large">
                             Emily Johnson
                           </strong>
                         </Fragment>
@@ -101,7 +104,7 @@ const Testimonial17 = (props) => {
                     <span>
                       {props.author2Position ?? (
                         <Fragment>
-                          <span className="testimonial17-text14 thq-body-small">
+                          <span className="testimonial17-text24 thq-body-small">
                             CFO, Data Insights Co.
                           </span>
                         </Fragment>
@@ -112,7 +115,7 @@ const Testimonial17 = (props) => {
                 <span>
                   {props.review2 ?? (
                     <Fragment>
-                      <span className="testimonial17-text18 thq-body-small">
+                      <span className="testimonial17-text28 thq-body-small">
                         We engaged Root Consulting Services for our ERP
                         implementation, and they delivered exceptional results.
                         Their team&apos;s knowledge of ERP systems is
@@ -128,19 +131,19 @@ const Testimonial17 = (props) => {
             <div className="thq-animated-card-bg-1">
               <div
                 data-animated="true"
-                className="thq-card testimonial17-card2"
+                className="thq-card testimonial17-card3"
               >
-                <div className="testimonial17-container06">
+                <div className="testimonial17-container16">
                   <img
                     alt={props.author3Alt}
                     src={props.author3Src}
-                    className="testimonial17-image2"
+                    className="testimonial17-image3"
                   />
-                  <div className="testimonial17-container07">
+                  <div className="testimonial17-container17">
                     <strong>
                       {props.author3Name ?? (
                         <Fragment>
-                          <strong className="testimonial17-text23 thq-body-large">
+                          <strong className="testimonial17-text33 thq-body-large">
                             Michael Lee
                           </strong>
                         </Fragment>
@@ -149,7 +152,7 @@ const Testimonial17 = (props) => {
                     <span>
                       {props.author3Position ?? (
                         <Fragment>
-                          <span className="testimonial17-text15 thq-body-small">
+                          <span className="testimonial17-text25 thq-body-small">
                             CTO, Innovate Now Ltd.
                           </span>
                         </Fragment>
@@ -160,7 +163,7 @@ const Testimonial17 = (props) => {
                 <span>
                   {props.review3 ?? (
                     <Fragment>
-                      <span className="testimonial17-text24 thq-body-small">
+                      <span className="testimonial17-text34 thq-body-small">
                         Root Consulting Services&apos; expertise in big data
                         integration and analytics helped us gain valuable
                         insights for our business. Their approach is highly
@@ -176,19 +179,19 @@ const Testimonial17 = (props) => {
             <div className="thq-animated-card-bg-1">
               <div
                 data-animated="true"
-                className="thq-card testimonial17-card3"
+                className="thq-card testimonial17-card4"
               >
-                <div className="testimonial17-container08">
+                <div className="testimonial17-container18">
                   <img
                     alt={props.author4Alt}
                     src={props.author4Src}
-                    className="testimonial17-image3"
+                    className="testimonial17-image4"
                   />
-                  <div className="testimonial17-container09">
+                  <div className="testimonial17-container19">
                     <strong>
                       {props.author4Name ?? (
                         <Fragment>
-                          <strong className="testimonial17-text16 thq-body-large">
+                          <strong className="testimonial17-text26 thq-body-large">
                             Sarah Adams
                           </strong>
                         </Fragment>
@@ -197,7 +200,7 @@ const Testimonial17 = (props) => {
                     <span>
                       {props.author4Position ?? (
                         <Fragment>
-                          <span className="testimonial17-text27 thq-body-small">
+                          <span className="testimonial17-text37 thq-body-small">
                             CMO, Growth Marketing Agency
                           </span>
                         </Fragment>
@@ -208,7 +211,7 @@ const Testimonial17 = (props) => {
                 <span>
                   {props.review4 ?? (
                     <Fragment>
-                      <span className="testimonial17-text21 thq-body-small">
+                      <span className="testimonial17-text31 thq-body-small">
                         Working with Root Consulting Services on AI and machine
                         learning projects has been a game-changer for our
                         organization. Their innovative solutions have

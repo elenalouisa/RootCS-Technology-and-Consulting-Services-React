@@ -6,13 +6,15 @@ import './banner1.css'
 
 const Banner1 = (props) => {
   return (
-    <div className="banner1-container thq-section-padding">
+    <div
+      className={`banner1-container1 thq-section-padding ${props.rootClassName} `}
+    >
       <div className="banner1-max-width thq-section-max-width">
-        <div className="banner1-container1">
+        <div className="banner1-container2">
           <h2>
             {props.heading1 ?? (
               <Fragment>
-                <h2 className="banner1-text2 thq-heading-2">
+                <h2 className="banner1-text3 thq-heading-2">
                   Empower Your Business with Advanced Technologies
                 </h2>
               </Fragment>
@@ -21,7 +23,7 @@ const Banner1 = (props) => {
           <h3>
             {props.content1 ?? (
               <Fragment>
-                <h3 className="banner1-text3 thq-heading-3">
+                <h3 className="banner1-text4 thq-heading-3">
                   Root Consulting Services specializes in providing tailored
                   solutions for Cloud, Digital Transformation, ERP, CRM, Big
                   Data integration, analysis, and AI.
@@ -34,7 +36,7 @@ const Banner1 = (props) => {
           <span>
             {props.action1 ?? (
               <Fragment>
-                <span className="banner1-text4">Learn More</span>
+                <span className="banner1-text5">Learn More</span>
               </Fragment>
             )}
           </span>
@@ -45,12 +47,14 @@ const Banner1 = (props) => {
 }
 
 Banner1.defaultProps = {
+  rootClassName: '',
   heading1: undefined,
   content1: undefined,
   action1: undefined,
 }
 
 Banner1.propTypes = {
+  rootClassName: PropTypes.string,
   heading1: PropTypes.element,
   content1: PropTypes.element,
   action1: PropTypes.element,

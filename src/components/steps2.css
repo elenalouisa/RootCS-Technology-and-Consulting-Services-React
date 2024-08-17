@@ -131,6 +131,7 @@
   display: inline-block;
   text-align: center;
 }
+
 @media(max-width: 991px) {
   .steps2-max-width {
     flex-direction: column;

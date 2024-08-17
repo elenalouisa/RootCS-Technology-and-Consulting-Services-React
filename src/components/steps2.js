@@ -6,7 +6,9 @@ import './steps2.css'
 
 const Steps2 = (props) => {
   return (
-    <div className="steps2-container1 thq-section-padding">
+    <div
+      className={`steps2-container1 thq-section-padding ${props.rootClassName} `}
+    >
       <div className="steps2-max-width thq-section-max-width">
         <div className="steps2-container2 thq-grid-2">
           <div className="steps2-section-header">
@@ -151,6 +153,7 @@ Steps2.defaultProps = {
   step3Title: undefined,
   step1Title: undefined,
   step2Description: undefined,
+  rootClassName: '',
 }
 
 Steps2.propTypes = {
@@ -162,6 +165,7 @@ Steps2.propTypes = {
   step3Title: PropTypes.element,
   step1Title: PropTypes.element,
   step2Description: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Steps2

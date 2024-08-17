@@ -155,7 +155,7 @@ const Services = (props) => {
         feature2Title={
           <Fragment>
             <span className="services-text31 thq-heading-3">
-              Process Optimization
+              Process Solutions
             </span>
           </Fragment>
         }
@@ -186,16 +186,16 @@ const Services = (props) => {
         feature2Description={
           <Fragment>
             <span className="services-text35 thq-body-small">
-              Expertise in process optimization to streamline operations and
-              maximize productivity.
+              We holistically approach solutions with every facet of people,
+              process, and technology in mind.
             </span>
           </Fragment>
         }
         feature3Description={
           <Fragment>
             <span className="services-text36 thq-body-small">
-              Implementing advanced data analytics techniques to drive informed
-              decision-making.
+              Native or not, new or legacy. We provide solutions that will
+              connect to everything you need.
             </span>
           </Fragment>
         }

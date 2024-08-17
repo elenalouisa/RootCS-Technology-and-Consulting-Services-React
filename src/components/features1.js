@@ -137,14 +137,14 @@ Features1.defaultProps = {
   feature3Description: undefined,
   feature1ImageAlt: 'Customized Solutions Image',
   feature3ImageSrc:
-    'https://images.unsplash.com/photo-1685355118814-a87b31c9a33a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjgwMDM4M3w&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQ4fHxkYXRhfGVufDB8fHx8MTcyMzg2NzM4MHww&ixlib=rb-4.0.3&h=300',
   sectionDescription: undefined,
   feature2ImageSrc:
-    'https://images.unsplash.com/photo-1588674375211-f13ed7c68894?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjgwMDM4Mnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHByb2Nlc3MlMjBkaWFncmFtfGVufDB8fHx8MTcyMzg2NzM1OXww&ixlib=rb-4.0.3&h=300',
   feature3ImageAlt: 'Data Analytics Image',
   feature1Title: undefined,
   feature1ImageSrc:
-    'https://images.unsplash.com/photo-1535557597501-0fee0a500c57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjgwMDM4M3w&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1510751007277-36932aac9ebd?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxmZW1hbGUlMjBkZXZlbG9wZXJ8ZW58MHx8fHwxNzIzODY3NDkyfDA&ixlib=rb-4.0.3&w=1400',
 }
 
 Features1.propTypes = {

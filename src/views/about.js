@@ -6,6 +6,7 @@ import TopLogo from '../components/top-logo'
 import Navbar8 from '../components/navbar8'
 import Hero8 from '../components/hero8'
 import ContentList1 from '../components/content-list1'
+import Steps2 from '../components/steps2'
 import Features1 from '../components/features1'
 import CTA26 from '../components/cta26'
 import Footer4 from '../components/footer4'
@@ -216,29 +217,86 @@ const About = (props) => {
         }
         rootClassName="content-list1root-class-name"
       ></ContentList1>
+      <Steps2
+        step2Title={
+          <Fragment>
+            <span className="about-text38 thq-heading-2">Design</span>
+          </Fragment>
+        }
+        step1Description={
+          <Fragment>
+            <span className="about-text39 thq-body-small">
+              Schedule a meeting with our team to discuss your business needs
+              and goals.
+            </span>
+          </Fragment>
+        }
+        step4Title={
+          <Fragment>
+            <span className="about-text40 thq-heading-2">Optimize</span>
+          </Fragment>
+        }
+        step4Description={
+          <Fragment>
+            <span className="about-text41 thq-body-small">
+              Continuous monitoring, optimization, and support to ensure your
+              business runs smoothly.
+            </span>
+          </Fragment>
+        }
+        step3Description={
+          <Fragment>
+            <span className="about-text42 thq-body-small">
+              We will efficiently implement the solution within the agreed
+              timeline and budget.
+            </span>
+          </Fragment>
+        }
+        step3Title={
+          <Fragment>
+            <span className="about-text43 thq-heading-2">Implement</span>
+          </Fragment>
+        }
+        step1Title={
+          <Fragment>
+            <span className="about-text44 thq-heading-2">
+              Initial Consultation
+            </span>
+          </Fragment>
+        }
+        step2Description={
+          <Fragment>
+            <span className="about-text45 thq-body-small">
+              Our experts will design and architect a customized solution
+              tailored to your specific requirements.
+            </span>
+          </Fragment>
+        }
+        rootClassName="steps2root-class-name"
+      ></Steps2>
       <Features1
         sectionTitle={
           <Fragment>
-            <span className="about-text38 thq-heading-2">Key Features</span>
+            <span className="about-text46 thq-heading-2">Key Features</span>
           </Fragment>
         }
         feature1Title={
           <Fragment>
-            <span className="about-text39 thq-heading-3">
+            <span className="about-text47 thq-heading-3">
               Customized Solutions
             </span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="about-text40 thq-heading-3">
+            <span className="about-text48 thq-heading-3">
               Optimized Efficiency
             </span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="about-text41 thq-heading-3">Business Value</span>
+            <span className="about-text49 thq-heading-3">Business Value</span>
           </Fragment>
         }
         feature1ImageSrc="https://images.unsplash.com/photo-1639815188508-13f7370f664a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzg0MzY0Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
@@ -246,7 +304,7 @@ const About = (props) => {
         feature3ImageSrc="/SubPics/14274%20(1)-300h.webp"
         sectionDescription={
           <Fragment>
-            <span className="about-text42 thq-body-small">
+            <span className="about-text50 thq-body-small">
               Discover the key features that set Root Consulting Services apart
               from the rest.
             </span>
@@ -254,7 +312,7 @@ const About = (props) => {
         }
         feature1Description={
           <Fragment>
-            <span className="about-text43 thq-body-small">
+            <span className="about-text51 thq-body-small">
               We provide tailored solutions for each client to enhance
               efficiency and competitiveness.
             </span>
@@ -262,7 +320,7 @@ const About = (props) => {
         }
         feature2Description={
           <Fragment>
-            <span className="about-text44 thq-body-small">
+            <span className="about-text52 thq-body-small">
               We provide expertise in process design and optimization to
               streamline operations and maximize productivity.
             </span>
@@ -270,7 +328,7 @@ const About = (props) => {
         }
         feature3Description={
           <Fragment>
-            <span className="about-text45 thq-body-small">
+            <span className="about-text53 thq-body-small">
               We identify and cultivate our solutions to deliver you cost
               savings and revenue growth.
             </span>
@@ -280,12 +338,12 @@ const About = (props) => {
       <CTA26
         action1={
           <Fragment>
-            <span className="about-text46">Get in touch</span>
+            <span className="about-text54">Get in touch</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="about-text47 thq-body-large">
+            <span className="about-text55 thq-body-large">
               Contact us today to discuss how Root Consulting Services can help
               you leverage the power of Cloud, Digital Transformation, ERP, CRM,
               Big Data integration, analysis and analytics, machine learning and
@@ -295,7 +353,7 @@ const About = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="about-text48 thq-heading-2">
+            <span className="about-text56 thq-heading-2">
               Ready to transform your business?
             </span>
           </Fragment>
@@ -305,17 +363,17 @@ const About = (props) => {
       <Footer4
         link1={
           <Fragment>
-            <span className="about-text49 thq-body-small">Services</span>
+            <span className="about-text57 thq-body-small">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="about-text50 thq-body-small">About Us</span>
+            <span className="about-text58 thq-body-small">About Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="about-text51 thq-body-small">Contact Us</span>
+            <span className="about-text59 thq-body-small">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

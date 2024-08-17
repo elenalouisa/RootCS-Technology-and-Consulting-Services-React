@@ -101,11 +101,16 @@ const About = (props) => {
             </span>
           </Fragment>
         }
+        action11={
+          <Fragment>
+            <span className="about-text24">Schedule</span>
+          </Fragment>
+        }
       ></Navbar8>
       <Hero8
         heading1={
           <Fragment>
-            <span className="about-text24 thq-heading-1">About Us</span>
+            <span className="about-text25 thq-heading-1">About Us</span>
           </Fragment>
         }
         image1Src="https://images.unsplash.com/photo-1710497626368-12404890be90?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzg0Mjg4OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
@@ -113,7 +118,7 @@ const About = (props) => {
       <ContentList1
         content1={
           <Fragment>
-            <span className="about-text25 thq-body-small">
+            <span className="about-text26 thq-body-small">
               Root Consulting Services is a leading company that specializes in
               guiding organizations through digital transformation journeys.
               With a focus on cloud services, ERP, CRM, and HCM solutions, we
@@ -124,7 +129,7 @@ const About = (props) => {
         }
         content2={
           <Fragment>
-            <span className="about-text26 thq-body-small">
+            <span className="about-text27 thq-body-small">
               At Root Consulting Services, we believe in providing tailored
               solutions to meet the unique needs of each organization. Our
               methodology ensures that our clients receive customized strategies
@@ -135,7 +140,7 @@ const About = (props) => {
         }
         content3={
           <Fragment>
-            <span className="about-text27 thq-body-small">
+            <span className="about-text28 thq-body-small">
               We offer a range of services including cloud services, ERP
               implementation, CRM solutions, and HCM optimization. Our team of
               experts is dedicated to helping businesses harness the power of
@@ -145,7 +150,7 @@ const About = (props) => {
         }
         content4={
           <Fragment>
-            <span className="about-text28 thq-body-small">
+            <span className="about-text29 thq-body-small">
               Our focus on process optimization sets us apart. We work closely
               with our clients to streamline their operations, improve
               workflows, and drive productivity. By optimizing processes, we
@@ -155,7 +160,7 @@ const About = (props) => {
         }
         content5={
           <Fragment>
-            <span className="about-text29 thq-body-small">
+            <span className="about-text30 thq-body-small">
               Data is at the core of everything we do. We help organizations
               leverage data and analytics to gain valuable insights, make
               informed decisions, and drive innovation. Our data-driven approach
@@ -165,7 +170,7 @@ const About = (props) => {
         }
         content6={
           <Fragment>
-            <span className="about-text30 thq-body-small">
+            <span className="about-text31 thq-body-small">
               We understand that every business is unique. That&apos;s why we
               offer customized solutions that are tailored to the specific needs
               of each organization. Our goal is to deliver results that exceed
@@ -175,36 +180,36 @@ const About = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="about-text31 thq-heading-2">Who We Are</span>
+            <span className="about-text32 thq-heading-2">Who We Are</span>
           </Fragment>
         }
         heading2={
           <Fragment>
-            <span className="about-text32 thq-heading-3">Our Approach</span>
+            <span className="about-text33 thq-heading-3">Our Approach</span>
           </Fragment>
         }
         heading3={
           <Fragment>
-            <span className="about-text33 thq-heading-3">Services Offered</span>
+            <span className="about-text34 thq-heading-3">Services Offered</span>
           </Fragment>
         }
         heading4={
           <Fragment>
-            <span className="about-text34 thq-heading-3">
+            <span className="about-text35 thq-heading-3">
               Process Optimization
             </span>
           </Fragment>
         }
         heading5={
           <Fragment>
-            <span className="about-text35 thq-heading-3">
+            <span className="about-text36 thq-heading-3">
               Data and Analytics
             </span>
           </Fragment>
         }
         heading6={
           <Fragment>
-            <span className="about-text36 thq-heading-3">
+            <span className="about-text37 thq-heading-3">
               Customized Solutions
             </span>
           </Fragment>
@@ -214,26 +219,26 @@ const About = (props) => {
       <Features1
         sectionTitle={
           <Fragment>
-            <span className="about-text37 thq-heading-2">Key Features</span>
+            <span className="about-text38 thq-heading-2">Key Features</span>
           </Fragment>
         }
         feature1Title={
           <Fragment>
-            <span className="about-text38 thq-heading-3">
+            <span className="about-text39 thq-heading-3">
               Customized Solutions
             </span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="about-text39 thq-heading-3">
+            <span className="about-text40 thq-heading-3">
               Optimized Efficiency
             </span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="about-text40 thq-heading-3">Business Value</span>
+            <span className="about-text41 thq-heading-3">Business Value</span>
           </Fragment>
         }
         feature1ImageSrc="https://images.unsplash.com/photo-1639815188508-13f7370f664a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzg0MzY0Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
@@ -241,7 +246,7 @@ const About = (props) => {
         feature3ImageSrc="/SubPics/14274%20(1)-300h.webp"
         sectionDescription={
           <Fragment>
-            <span className="about-text41 thq-body-small">
+            <span className="about-text42 thq-body-small">
               Discover the key features that set Root Consulting Services apart
               from the rest.
             </span>
@@ -249,7 +254,7 @@ const About = (props) => {
         }
         feature1Description={
           <Fragment>
-            <span className="about-text42 thq-body-small">
+            <span className="about-text43 thq-body-small">
               We provide tailored solutions for each client to enhance
               efficiency and competitiveness.
             </span>
@@ -257,7 +262,7 @@ const About = (props) => {
         }
         feature2Description={
           <Fragment>
-            <span className="about-text43 thq-body-small">
+            <span className="about-text44 thq-body-small">
               We provide expertise in process design and optimization to
               streamline operations and maximize productivity.
             </span>
@@ -265,7 +270,7 @@ const About = (props) => {
         }
         feature3Description={
           <Fragment>
-            <span className="about-text44 thq-body-small">
+            <span className="about-text45 thq-body-small">
               We identify and cultivate our solutions to deliver you cost
               savings and revenue growth.
             </span>
@@ -275,12 +280,12 @@ const About = (props) => {
       <CTA26
         action1={
           <Fragment>
-            <span className="about-text45">Get in touch</span>
+            <span className="about-text46">Get in touch</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="about-text46 thq-body-large">
+            <span className="about-text47 thq-body-large">
               Contact us today to discuss how Root Consulting Services can help
               you leverage the power of Cloud, Digital Transformation, ERP, CRM,
               Big Data integration, analysis and analytics, machine learning and
@@ -290,7 +295,7 @@ const About = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="about-text47 thq-heading-2">
+            <span className="about-text48 thq-heading-2">
               Ready to transform your business?
             </span>
           </Fragment>
@@ -300,17 +305,17 @@ const About = (props) => {
       <Footer4
         link1={
           <Fragment>
-            <span className="about-text48 thq-body-small">Services</span>
+            <span className="about-text49 thq-body-small">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="about-text49 thq-body-small">About Us</span>
+            <span className="about-text50 thq-body-small">About Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="about-text50 thq-body-small">Contact Us</span>
+            <span className="about-text51 thq-body-small">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

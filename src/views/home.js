@@ -99,29 +99,26 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
+        action11={
+          <Fragment>
+            <span className="home-text24">Schedule</span>
+          </Fragment>
+        }
       ></Navbar8>
       <Hero17
-        heading1={
+        action1={
           <Fragment>
-            <span className="home-text24 thq-heading-1">
-              <span>Codify. Everything.</span>
-              <br></br>
-            </span>
+            <span className="home-text25 thq-body-small">Get in Touch</span>
           </Fragment>
         }
         action2={
           <Fragment>
-            <span className="home-text27 thq-body-small">Learn More</span>
-          </Fragment>
-        }
-        action1={
-          <Fragment>
-            <span className="home-text28 thq-body-small">Get in Touch</span>
+            <span className="home-text26 thq-body-small">Learn More</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text29 thq-body-large">
+            <span className="home-text27 thq-body-large">
               We guide organizations through digital transformation journeys to
               empower businesses.
               <span
@@ -132,19 +129,43 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
+        heading1={
+          <Fragment>
+            <span className="home-text28 thq-heading-1">
+              <span>Codify. Everything.</span>
+              <br></br>
+            </span>
+          </Fragment>
+        }
         rootClassName="hero17root-class-name"
       ></Hero17>
       <Stats21
+        stat2={
+          <Fragment>
+            <span className="home-text31 thq-heading-2">Expertise</span>
+          </Fragment>
+        }
+        stat21={
+          <Fragment>
+            <span className="home-text32 thq-heading-2">Satisfaction</span>
+          </Fragment>
+        }
+        stat212={
+          <Fragment>
+            <span className="home-text33 thq-heading-2">Innovation</span>
+          </Fragment>
+        }
         content1={
           <Fragment>
-            <span className="home-text30 thq-body-small">
+            <span className="home-text34 thq-body-small">
               Tailored solutions for cloud, ERP, CRM, and HCM
             </span>
           </Fragment>
         }
+        rootClassName="stats21root-class-name"
         stat2Description={
           <Fragment>
-            <span className="home-text31 thq-body-small">
+            <span className="home-text35 thq-body-small">
               With a wealth of expertise accumulated over many years in the
               industry, our team at Root Consulting Services brings a depth of
               experience to every project we undertake. Our seasoned
@@ -156,19 +177,9 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-        stat2={
-          <Fragment>
-            <span className="home-text32 thq-heading-2">Expertise</span>
-          </Fragment>
-        }
-        stat21={
-          <Fragment>
-            <span className="home-text33 thq-heading-2">Satisfaction</span>
-          </Fragment>
-        }
         stat2Description1={
           <Fragment>
-            <span className="home-text34 thq-body-small">
+            <span className="home-text36 thq-body-small">
               We have received overwhelmingly positive feedback from our
               satisfied clients who have experienced the benefits of our
               tailored digital transformation solutions. Their testimonials
@@ -179,15 +190,9 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-        rootClassName="stats21root-class-name"
-        stat212={
-          <Fragment>
-            <span className="home-text35 thq-heading-2">Innovation</span>
-          </Fragment>
-        }
         stat2Description12={
           <Fragment>
-            <span className="home-text36 thq-body-small">
+            <span className="home-text37 thq-body-small">
               Innovative problem-solving techniques that push boundaries and
               drive business growth
             </span>
@@ -197,19 +202,19 @@ const Home = (props) => {
       <Features24
         feature1Title={
           <Fragment>
-            <span className="home-text37 thq-heading-2">
+            <span className="home-text38 thq-heading-2">
               Digital Transformation
             </span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="home-text38 thq-heading-2">Process Design</span>
+            <span className="home-text39 thq-heading-2">Process Design</span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="home-text39 thq-heading-2">
+            <span className="home-text40 thq-heading-2">
               Data and Analytics
             </span>
           </Fragment>
@@ -217,21 +222,21 @@ const Home = (props) => {
         feature1ImgSrc="https://images.unsplash.com/photo-1484417894907-623942c8ee29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjc5OTU3Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
         feature1Description={
           <Fragment>
-            <span className="home-text40 thq-body-small">
+            <span className="home-text41 thq-body-small">
               Tailored solutions for your digital journey
             </span>
           </Fragment>
         }
         feature2Description={
           <Fragment>
-            <span className="home-text41 thq-body-small">
+            <span className="home-text42 thq-body-small">
               Optimize and automate your cloud, ERP, and CRM solutions
             </span>
           </Fragment>
         }
         feature3Description={
           <Fragment>
-            <span className="home-text42 thq-body-small">
+            <span className="home-text43 thq-body-small">
               Integrate and visualize data to drive business decisions
             </span>
           </Fragment>
@@ -240,17 +245,17 @@ const Home = (props) => {
       <Footer4
         link1={
           <Fragment>
-            <span className="home-text43 thq-body-small">Services</span>
+            <span className="home-text44 thq-body-small">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text44 thq-body-small">About Us</span>
+            <span className="home-text45 thq-body-small">About Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="home-text45 thq-body-small">Contact Us</span>
+            <span className="home-text46 thq-body-small">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

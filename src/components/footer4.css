@@ -79,6 +79,7 @@
 .footer4-text4 {
   display: inline-block;
 }
+
 @media(max-width: 767px) {
   .footer4-row {
     gap: var(--dl-space-space-oneandhalfunits);

@@ -7,7 +7,9 @@ import './footer4.css'
 
 const Footer4 = (props) => {
   return (
-    <footer className="footer4-footer7 thq-section-padding">
+    <footer
+      className={`footer4-footer7 thq-section-padding ${props.rootClassName} `}
+    >
       <div className="footer4-max-width thq-section-max-width">
         <div className="footer4-content">
           <div className="footer4-logo1">
@@ -64,6 +66,7 @@ Footer4.defaultProps = {
   link3: undefined,
   link2: undefined,
   link1: undefined,
+  rootClassName: '',
 }
 
 Footer4.propTypes = {
@@ -71,6 +74,7 @@ Footer4.propTypes = {
   link3: PropTypes.element,
   link2: PropTypes.element,
   link1: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Footer4

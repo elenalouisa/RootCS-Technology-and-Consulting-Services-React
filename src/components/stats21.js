@@ -21,7 +21,7 @@ const Stats21 = (props) => {
           <span>
             {props.content1 ?? (
               <Fragment>
-                <span className="stats21-text17 thq-body-small">
+                <span className="stats21-text18 thq-body-small">
                   Tailored services for cloud, ERP, CRM, and HCM
                 </span>
               </Fragment>
@@ -31,14 +31,14 @@ const Stats21 = (props) => {
             <h2>
               {props.stat2 ?? (
                 <Fragment>
-                  <h2 className="stats21-text19 thq-heading-2">Expertise</h2>
+                  <h2 className="stats21-text17 thq-heading-2">Expertise</h2>
                 </Fragment>
               )}
             </h2>
             <span>
               {props.stat2Description ?? (
                 <Fragment>
-                  <span className="stats21-text18 thq-body-small">
+                  <span className="stats21-text23 thq-body-small">
                     With a wealth of expertise accumulated over many years in
                     the industry, our team at Root Consulting Services brings a
                     depth of experience to every project we undertake. Our
@@ -63,7 +63,7 @@ const Stats21 = (props) => {
             <span>
               {props.stat2Description1 ?? (
                 <Fragment>
-                  <span className="stats21-text21 thq-body-small">
+                  <span className="stats21-text19 thq-body-small">
                     We have received overwhelmingly positive feedback from our
                     satisfied clients who have experienced the benefits of our
                     tailored digital transformation solutions. Their
@@ -81,14 +81,14 @@ const Stats21 = (props) => {
             <h2>
               {props.stat212 ?? (
                 <Fragment>
-                  <h2 className="stats21-text22 thq-heading-2">Innovation</h2>
+                  <h2 className="stats21-text21 thq-heading-2">Innovation</h2>
                 </Fragment>
               )}
             </h2>
             <span>
               {props.stat2Description12 ?? (
                 <Fragment>
-                  <span className="stats21-text23 thq-body-small">
+                  <span className="stats21-text22 thq-body-small">
                     Innovative problem-solving techniques that push boundaries
                     and drive business growth
                   </span>
@@ -103,30 +103,30 @@ const Stats21 = (props) => {
 }
 
 Stats21.defaultProps = {
+  stat2: undefined,
   content1: undefined,
+  stat2Description1: undefined,
+  stat21: undefined,
+  stat212: undefined,
+  stat2Description12: undefined,
   image1Alt: 'Root Consulting Services Stats',
   stat2Description: undefined,
   image1Src:
     'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzg0OTg4OXw&ixlib=rb-4.0.3&q=80&w=1400',
-  stat2: undefined,
-  stat21: undefined,
-  stat2Description1: undefined,
   rootClassName: '',
-  stat212: undefined,
-  stat2Description12: undefined,
 }
 
 Stats21.propTypes = {
+  stat2: PropTypes.element,
   content1: PropTypes.element,
+  stat2Description1: PropTypes.element,
+  stat21: PropTypes.element,
+  stat212: PropTypes.element,
+  stat2Description12: PropTypes.element,
   image1Alt: PropTypes.string,
   stat2Description: PropTypes.element,
   image1Src: PropTypes.string,
-  stat2: PropTypes.element,
-  stat21: PropTypes.element,
-  stat2Description1: PropTypes.element,
   rootClassName: PropTypes.string,
-  stat212: PropTypes.element,
-  stat2Description12: PropTypes.element,
 }
 
 export default Stats21

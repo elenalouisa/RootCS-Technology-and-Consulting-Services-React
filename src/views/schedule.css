@@ -1,0 +1,63 @@
+.schedule-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.schedule-text10 {
+  display: inline-block;
+  text-decoration: none;
+}
+.schedule-text11 {
+  display: inline-block;
+  font-weight: 600;
+}
+.schedule-text12 {
+  display: inline-block;
+}
+.schedule-text13 {
+  display: inline-block;
+  font-weight: 600;
+}
+.schedule-text14 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+}
+.schedule-text15 {
+  display: inline-block;
+}
+.schedule-text18 {
+  display: inline-block;
+}
+.schedule-text19 {
+  display: inline-block;
+}
+.schedule-text20 {
+  display: inline-block;
+  text-decoration: none;
+}
+.schedule-text21 {
+  display: inline-block;
+}
+.schedule-text22 {
+  display: inline-block;
+}
+.schedule-text23 {
+  display: inline-block;
+  font-weight: 600;
+}
+.schedule-text24 {
+  display: inline-block;
+}
+.schedule-text25 {
+  display: inline-block;
+}
+.schedule-text26 {
+  display: inline-block;
+}
+.schedule-text27 {
+  display: inline-block;
+}

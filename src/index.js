@@ -12,6 +12,7 @@ import About from './views/about'
 import Home from './views/home'
 import Services from './views/services'
 import Contact from './views/contact'
+import Schedule from './views/schedule'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={Services} exact path="/services" />
         <Route component={Contact} exact path="/contact" />
+        <Route component={Schedule} exact path="/schedule" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

@@ -150,9 +150,9 @@ const ContactForm7 = (props) => {
                 Message
               </label>
               <textarea
-                id="contact-form-7-message"
-                rows="3"
+                rows="10"
                 placeholder="Enter your message"
+                id="contact-form-7-message"
                 className="contact-form7-textarea thq-input"
               ></textarea>
             </div>
@@ -171,13 +171,14 @@ const ContactForm7 = (props) => {
           </div>
           <button
             type="submit"
+            onClick={props.submit}
             className="contact-form7-button thq-button-filled"
           >
-            <span>
+            <span onClick={props.submit}>
               {props.action ?? (
                 <Fragment>
                   <span className="contact-form7-text25 thq-body-small">
-                    Send
+                    Submit
                   </span>
                 </Fragment>
               )}
@@ -192,6 +193,7 @@ const ContactForm7 = (props) => {
 ContactForm7.defaultProps = {
   heading1: undefined,
   phone: undefined,
+  submit: () => {},
   email: undefined,
   content1: undefined,
   action: undefined,
@@ -201,6 +203,7 @@ ContactForm7.defaultProps = {
 ContactForm7.propTypes = {
   heading1: PropTypes.element,
   phone: PropTypes.element,
+  submit: PropTypes.func,
   email: PropTypes.element,
   content1: PropTypes.element,
   action: PropTypes.element,

@@ -56,11 +56,18 @@
 }
 .contact-text26 {
   display: inline-block;
+  font-size: 20px;
+  text-align: center;
 }
 .contact-text27 {
   display: inline-block;
+  text-align: center;
 }
-.contact-text30 {
+.contact-text32 {
+  display: inline-block;
+  text-align: center;
+}
+.contact-text33 {
   display: inline-block;
 }
 .contact-text34 {
@@ -69,14 +76,14 @@
 .contact-text35 {
   display: inline-block;
 }
-.contact-text36 {
-  display: inline-block;
-}
-.contact-text37 {
-  display: inline-block;
-}
-@media(max-width: 479px) {
+@media(max-width: 1600px) {
+  .contact-text26 {
+    font-size: 20px;
+  }
   .contact-text27 {
-    text-align: center;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .contact-text32 {
+    font-size: 20px;
   }
 }

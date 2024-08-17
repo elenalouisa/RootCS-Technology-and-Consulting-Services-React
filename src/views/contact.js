@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import TopLogo from '../components/top-logo'
 import Navbar8 from '../components/navbar8'
-import ContactForm7 from '../components/contact-form7'
+import Contact15 from '../components/contact15'
 import Footer4 from '../components/footer4'
 import './contact.css'
 
@@ -104,44 +104,32 @@ const Contact = (props) => {
             </span>
           </Fragment>
         }
+        action11={
+          <Fragment>
+            <span className="contact-text24">Schedule</span>
+          </Fragment>
+        }
       ></Navbar8>
-      <ContactForm7
-        email={
+      <Contact15
+        heading1={
           <Fragment>
-            <span className="contact-text24 thq-body-small">
-              sales@rootcs.org
-            </span>
+            <span className="contact-text25 thq-heading-2">Contact Us</span>
           </Fragment>
         }
-        phone={
+        phone1={
           <Fragment>
-            <span className="contact-text25 thq-body-small">614.963.5765</span>
-          </Fragment>
-        }
-        action={
-          <Fragment>
-            <span className="contact-text26 thq-body-small">Send</span>
-          </Fragment>
-        }
-        content1={
-          <Fragment>
-            <span className="contact-text27 thq-body-small">
-              <span>Get in touch with us</span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </span>
+            <span className="contact-text26 thq-body-small">614-963-5765</span>
           </Fragment>
         }
         content2={
           <Fragment>
-            <span className="contact-text30 thq-body-small">
+            <span className="contact-text27 thq-body-large">
               <span>
-                Have a question or need more information?
+                Feel free to reach out to us via phone for a consultation or any
+                inquiries you may have. Our team of experts is ready to assist
+                you in your digital transformation journey. Let us partner with
+                you to drive innovation, optimize processes, and leverage data
+                analytics for sustainable business growth.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -149,30 +137,36 @@ const Contact = (props) => {
                 />
               </span>
               <br></br>
-              <span>Reach out to us!</span>
+              <br></br>
+              <span>
+                Your success is our priority, and we look forward to hearing
+                from you.
+              </span>
             </span>
           </Fragment>
         }
-        heading1={
+        email1={
           <Fragment>
-            <span className="contact-text34 thq-heading-2">Contact Us</span>
+            <span className="contact-text32 thq-body-small">
+              sales@rootcs.org
+            </span>
           </Fragment>
         }
-      ></ContactForm7>
+      ></Contact15>
       <Footer4
         link1={
           <Fragment>
-            <span className="contact-text35 thq-body-small">Services</span>
+            <span className="contact-text33 thq-body-small">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="contact-text36 thq-body-small">About Us</span>
+            <span className="contact-text34 thq-body-small">About Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="contact-text37 thq-body-small">Contact Us</span>
+            <span className="contact-text35 thq-body-small">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

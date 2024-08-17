@@ -6,7 +6,16 @@ import './component.css'
 
 const AppComponent = (props) => {
   return (
-    <div className={`app-component-container ${props.rootClassName} `}></div>
+    <main className={`component-container1 ${props.rootClassName} `}>
+      <main className="component-container2">
+        <iframe
+          src="https://outlook.office365.com/owa/calendar/RootConsultingServices1@rootcs.org/bookings/"
+          scrolling="no"
+          allowFullScreen="true"
+          className="component-iframe"
+        ></iframe>
+      </main>
+    </main>
   )
 }
 

@@ -11,141 +11,141 @@ const ContentList11 = (props) => {
         <div className="content-list11-content thq-flex-column">
           <ul className="content-list11-ul thq-flex-column">
             <li className="list-item thq-flex-column">
-              <h2>
+              <h2 className="content-list11-heading1 thq-heading-2">
                 {props.heading1 ?? (
                   <Fragment>
-                    <h2 className="content-list11-text16 thq-heading-2">
+                    <span className="content-list11-text16">
                       Tailored Solutions for Digital Transformation
-                    </h2>
+                    </span>
                   </Fragment>
                 )}
               </h2>
-              <p>
+              <p className="thq-body-small">
                 {props.content1 ?? (
                   <Fragment>
-                    <p className="content-list11-text19 thq-body-small">
+                    <span className="content-list11-text19">
                       Root Consulting Services offers customized solutions to
                       support businesses in their digital transformation
                       journey. Whether it&apos;s cloud services, ERP, CRM, or
                       HCM, we provide tailored strategies to meet your specific
                       needs.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading2 ?? (
                   <Fragment>
-                    <h3 className="content-list11-text17 thq-heading-3">
+                    <span className="content-list11-text17">
                       Specializing in Cloud Services and More
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content2 ?? (
                   <Fragment>
-                    <p className="content-list11-text11 thq-body-small">
+                    <span className="content-list11-text11">
                       With a focus on cloud services, ERP, CRM, and HCM, Root
                       Consulting Services brings expertise in these key areas of
                       technology. Our specialization allows us to deliver
                       high-quality solutions that drive business growth.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading3 ?? (
                   <Fragment>
-                    <h3 className="content-list11-text18 thq-heading-3">
+                    <span className="content-list11-text18">
                       Process Optimization and Data Analytics
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content3 ?? (
                   <Fragment>
-                    <p className="content-list11-text21 thq-body-small">
+                    <span className="content-list11-text21">
                       We help businesses optimize their processes and harness
                       the power of data analytics for informed decision-making.
                       Our services enable organizations to streamline operations
                       and unlock valuable insights from their data.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading4 ?? (
                   <Fragment>
-                    <h3 className="content-list11-text15 thq-heading-3">
+                    <span className="content-list11-text15">
                       Empowering Businesses Through Technology
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content4 ?? (
                   <Fragment>
-                    <p className="content-list11-text13 thq-body-small">
+                    <span className="content-list11-text13">
                       At Root Consulting Services, our mission is to empower
                       businesses through technology. We believe that leveraging
                       the right tools and solutions can drive innovation,
                       efficiency, and success for our clients.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading5 ?? (
                   <Fragment>
-                    <h3 className="content-list11-text14 thq-heading-3">
+                    <span className="content-list11-text14">
                       Why Choose Root Consulting Services?
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content5 ?? (
                   <Fragment>
-                    <p className="content-list11-text12 thq-body-small">
+                    <span className="content-list11-text12">
                       Root Consulting Services stands out for its commitment to
                       delivering exceptional results for clients. With a focus
                       on innovation, quality, and client satisfaction, we are
                       the partner of choice for businesses seeking digital
                       transformation.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading6 ?? (
                   <Fragment>
-                    <h3 className="content-list11-text10 thq-heading-3">
+                    <span className="content-list11-text10">
                       Get Started on Your Digital Transformation Journey
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content6 ?? (
                   <Fragment>
-                    <p className="content-list11-text20 thq-body-small">
+                    <span className="content-list11-text20">
                       Ready to take your business to the next level? Contact
                       Root Consulting Services today to begin your digital
                       transformation journey. Let us help you unlock the full
                       potential of technology for your organization.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>

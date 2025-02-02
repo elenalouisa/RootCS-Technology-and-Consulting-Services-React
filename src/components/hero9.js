@@ -17,21 +17,21 @@ const Hero9 = (props) => {
       <div className="hero9-container"></div>
       <div className="hero9-max-width thq-section-max-width">
         <div className="hero9-content">
-          <h1>
+          <h1 className="hero9-text1 thq-heading-1">
             {props.heading1 ?? (
               <Fragment>
-                <h1 className="hero9-text3 thq-heading-1">Our Services</h1>
+                <span className="hero9-text3">Our Services</span>
               </Fragment>
             )}
           </h1>
-          <p>
+          <p className="hero9-text2 thq-body-large">
             {props.content1 ?? (
               <Fragment>
-                <p className="hero9-text4 thq-body-large">
+                <span className="hero9-text4">
                   Guiding organizations through digital transformation journeys
                   with tailored solutions for cloud services, ERP, CRM, and big
                   data integration.
-                </p>
+                </span>
               </Fragment>
             )}
           </p>

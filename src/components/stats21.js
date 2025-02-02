@@ -18,27 +18,27 @@ const Stats21 = (props) => {
           />
         </div>
         <div className="stats21-container3 thq-flex-column">
-          <span>
+          <span className="thq-body-small">
             {props.content1 ?? (
               <Fragment>
-                <span className="stats21-text18 thq-body-small">
+                <span className="stats21-text18">
                   Tailored services for cloud, ERP, CRM, and HCM
                 </span>
               </Fragment>
             )}
           </span>
           <div className="stats21-container4 thq-grid-2">
-            <h2>
+            <h2 className="thq-heading-2">
               {props.stat2 ?? (
                 <Fragment>
-                  <h2 className="stats21-text17 thq-heading-2">Expertise</h2>
+                  <span className="stats21-text17">Expertise</span>
                 </Fragment>
               )}
             </h2>
-            <span>
+            <span className="thq-body-small">
               {props.stat2Description ?? (
                 <Fragment>
-                  <span className="stats21-text23 thq-body-small">
+                  <span className="stats21-text23">
                     With a wealth of expertise accumulated over many years in
                     the industry, our team at Root Consulting Services brings a
                     depth of experience to every project we undertake. Our
@@ -53,17 +53,17 @@ const Stats21 = (props) => {
             </span>
           </div>
           <div className="stats21-container5 thq-grid-2">
-            <h2>
+            <h2 className="thq-heading-2 stats21-text13">
               {props.stat21 ?? (
                 <Fragment>
-                  <h2 className="stats21-text20 thq-heading-2">Satisfaction</h2>
+                  <span className="stats21-text20">Satisfaction</span>
                 </Fragment>
               )}
             </h2>
-            <span>
+            <span className="thq-body-small">
               {props.stat2Description1 ?? (
                 <Fragment>
-                  <span className="stats21-text19 thq-body-small">
+                  <span className="stats21-text19">
                     We have received overwhelmingly positive feedback from our
                     satisfied clients who have experienced the benefits of our
                     tailored digital transformation solutions. Their
@@ -78,17 +78,17 @@ const Stats21 = (props) => {
             </span>
           </div>
           <div className="stats21-container6 thq-grid-2">
-            <h2>
+            <h2 className="thq-heading-2 stats21-text15">
               {props.stat212 ?? (
                 <Fragment>
-                  <h2 className="stats21-text21 thq-heading-2">Innovation</h2>
+                  <span className="stats21-text21">Innovation</span>
                 </Fragment>
               )}
             </h2>
-            <span>
+            <span className="thq-body-small">
               {props.stat2Description12 ?? (
                 <Fragment>
-                  <span className="stats21-text22 thq-body-small">
+                  <span className="stats21-text22">
                     Innovative problem-solving techniques that push boundaries
                     and drive business growth
                   </span>

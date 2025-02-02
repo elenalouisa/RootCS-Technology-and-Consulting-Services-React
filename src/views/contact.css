@@ -5,85 +5,83 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .contact-text10 {
   display: inline-block;
-  text-decoration: none;
 }
+ 
 .contact-text11 {
   display: inline-block;
 }
+ 
 .contact-text12 {
   display: inline-block;
-  text-decoration: none;
 }
+ 
 .contact-text13 {
   display: inline-block;
 }
+ 
 .contact-text14 {
   display: inline-block;
-  font-weight: 600;
 }
+ 
 .contact-text15 {
   display: inline-block;
-  font-weight: 600;
 }
+ 
 .contact-text16 {
   display: inline-block;
-  font-weight: 600;
 }
+ 
 .contact-text17 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 600;
 }
+ 
 .contact-text18 {
   display: inline-block;
 }
+ 
 .contact-text21 {
   display: inline-block;
 }
+ 
 .contact-text22 {
   display: inline-block;
 }
+ 
 .contact-text23 {
   display: inline-block;
 }
+ 
 .contact-text24 {
   display: inline-block;
 }
+ 
 .contact-text25 {
   display: inline-block;
 }
+ 
 .contact-text26 {
   display: inline-block;
-  font-size: 20px;
-  text-align: center;
 }
+ 
 .contact-text27 {
   display: inline-block;
-  text-align: center;
 }
+ 
 .contact-text32 {
   display: inline-block;
-  text-align: center;
 }
+ 
 .contact-text33 {
   display: inline-block;
 }
+ 
 .contact-text34 {
   display: inline-block;
 }
+ 
 .contact-text35 {
   display: inline-block;
-}
-@media(max-width: 1600px) {
-  .contact-text26 {
-    font-size: 20px;
-  }
-  .contact-text27 {
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .contact-text32 {
-    font-size: 20px;
-  }
 }

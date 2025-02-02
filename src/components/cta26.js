@@ -13,22 +13,22 @@ const CTA26 = (props) => {
           <div className="cta26-accent1-bg">
             <div className="cta26-container2">
               <div className="cta26-content">
-                <span>
+                <span className="cta26-text1 thq-heading-2">
                   {props.heading1 ?? (
                     <Fragment>
-                      <span className="cta26-text3 thq-heading-2">
+                      <span className="cta26-text3">
                         Ready to transform your business?
                       </span>
                     </Fragment>
                   )}
                 </span>
-                <p>
+                <p className="cta26-text2 thq-body-large">
                   {props.content1 ?? (
                     <Fragment>
-                      <p className="cta26-text5 thq-body-large">
+                      <span className="cta26-text5">
                         Contact us today to explore how Root Consulting Services
                         can enhance your digital transformation.
-                      </p>
+                      </span>
                     </Fragment>
                   )}
                 </p>
@@ -38,7 +38,7 @@ const CTA26 = (props) => {
                   type="button"
                   className="cta26-button thq-button-filled"
                 >
-                  <Link to="/contact" className="cta26-navlink">
+                  <Link to="/contact">
                     {props.action1 ?? (
                       <Fragment>
                         <span className="cta26-text4">Get in touch</span>

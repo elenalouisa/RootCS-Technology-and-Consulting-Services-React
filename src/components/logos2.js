@@ -10,10 +10,10 @@ const Logos2 = (props) => {
       className={`logos2-container1 thq-section-padding ${props.rootClassName} `}
     >
       <div className="logos2-max-width thq-section-max-width">
-        <h2>
+        <h2 className="logos2-text1 thq-heading-2">
           {props.heading1 ?? (
             <Fragment>
-              <h2 className="logos2-text2 thq-heading-2">Our Partners</h2>
+              <span className="logos2-text2">Our Partners</span>
             </Fragment>
           )}
         </h2>

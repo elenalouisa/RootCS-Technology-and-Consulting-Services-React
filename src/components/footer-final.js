@@ -22,30 +22,25 @@ const FooterFinal = (props) => {
               href="https://example.com"
               target="_blank"
               rel="noreferrer noopener"
+              className="thq-body-small"
             >
               {props.link1 ?? (
                 <Fragment>
-                  <span className="footer-final-text18 thq-body-small">
-                    Services
-                  </span>
+                  <span className="footer-final-text18">Services</span>
                 </Fragment>
               )}
             </a>
-            <Link to="/about" className="footer-final-navlink1">
+            <Link to="/about" className="thq-body-small">
               {props.link2 ?? (
                 <Fragment>
-                  <span className="footer-final-text21 thq-body-small">
-                    About Us
-                  </span>
+                  <span className="footer-final-text21">About Us</span>
                 </Fragment>
               )}
             </Link>
-            <Link to="/contact" className="footer-final-navlink2">
+            <Link to="/contact" className="thq-body-small">
               {props.link3 ?? (
                 <Fragment>
-                  <span className="footer-final-text20 thq-body-small">
-                    Contact Us
-                  </span>
+                  <span className="footer-final-text20">Contact Us</span>
                 </Fragment>
               )}
             </Link>
@@ -53,12 +48,11 @@ const FooterFinal = (props) => {
               href="https://example.com"
               target="_blank"
               rel="noreferrer noopener"
+              className="thq-body-small"
             >
               {props.link4 ?? (
                 <Fragment>
-                  <span className="footer-final-text16 thq-body-small">
-                    Privacy Policy
-                  </span>
+                  <span className="footer-final-text16">Privacy Policy</span>
                 </Fragment>
               )}
             </a>
@@ -66,12 +60,11 @@ const FooterFinal = (props) => {
               href="https://example.com"
               target="_blank"
               rel="noreferrer noopener"
+              className="thq-body-small"
             >
               {props.link5 ?? (
                 <Fragment>
-                  <span className="footer-final-text17 thq-body-small">
-                    Terms of Service
-                  </span>
+                  <span className="footer-final-text17">Terms of Service</span>
                 </Fragment>
               )}
             </a>
@@ -86,30 +79,26 @@ const FooterFinal = (props) => {
               </span>
             </div>
             <div className="footer-final-footer-links">
-              <span>
+              <span className="footer-final-text11 thq-body-small">
                 {props.privacyLink ?? (
                   <Fragment>
-                    <span className="footer-final-text15 thq-body-small">
-                      Privacy Policy
-                    </span>
+                    <span className="footer-final-text15">Privacy Policy</span>
                   </Fragment>
                 )}
               </span>
-              <span>
+              <span className="thq-body-small">
                 {props.termsLink ?? (
                   <Fragment>
-                    <span className="footer-final-text14 thq-body-small">
+                    <span className="footer-final-text14">
                       Terms of Service
                     </span>
                   </Fragment>
                 )}
               </span>
-              <span>
+              <span className="thq-body-small">
                 {props.cookiesLink ?? (
                   <Fragment>
-                    <span className="footer-final-text19 thq-body-small">
-                      Cookies Policy
-                    </span>
+                    <span className="footer-final-text19">Cookies Policy</span>
                   </Fragment>
                 )}
               </span>

@@ -10,47 +10,45 @@ const Stats2 = (props) => {
       <div className="stats2-max-width thq-section-max-width">
         <div className="stats2-container2 thq-flex-column"></div>
         <div className="stats2-container3 thq-flex-column">
-          <span>
+          <span className="thq-body-small">
             {props.content1 ?? (
               <Fragment>
-                <span className="stats2-text31 thq-body-small">
+                <span className="stats2-text31">
                   Tailored solutions to guide organizations through their
                   digital transformation journeys
                 </span>
               </Fragment>
             )}
           </span>
-          <h2>
+          <h2 className="thq-heading-2">
             {props.heading1 ?? (
               <Fragment>
-                <h2 className="stats2-text21 thq-heading-2">Our Stats</h2>
+                <span className="stats2-text21">Our Stats</span>
               </Fragment>
             )}
           </h2>
-          <p>
+          <p className="thq-body-large">
             {props.content2 ?? (
               <Fragment>
-                <p className="stats2-text27 thq-body-large">
+                <span className="stats2-text27">
                   Enhancing efficiency and competitiveness
-                </p>
+                </span>
               </Fragment>
             )}
           </p>
           <div className="stats2-container4 thq-grid-2">
             <div className="stats2-container5">
-              <h2>
+              <h2 className="stats2-text13 thq-heading-2">
                 {props.stat1 ?? (
                   <Fragment>
-                    <h2 className="stats2-text29 thq-heading-2">
-                      Modernization
-                    </h2>
+                    <span className="stats2-text29">Modernization</span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.stat1Description ?? (
                   <Fragment>
-                    <span className="stats2-text26 thq-body-small">
+                    <span className="stats2-text26">
                       Customized solutions for digital transformation
                     </span>
                   </Fragment>
@@ -58,19 +56,17 @@ const Stats2 = (props) => {
               </span>
             </div>
             <div className="stats2-container6">
-              <h2>
+              <h2 className="thq-heading-2">
                 {props.stat2 ?? (
                   <Fragment>
-                    <h2 className="stats2-text23 thq-heading-2">
-                      Cloud Services
-                    </h2>
+                    <span className="stats2-text23">Cloud Services</span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.stat2Description ?? (
                   <Fragment>
-                    <span className="stats2-text28 thq-body-small">
+                    <span className="stats2-text28">
                       Cloud Services and ERP/CRM Optimization
                     </span>
                   </Fragment>
@@ -80,17 +76,17 @@ const Stats2 = (props) => {
           </div>
           <div className="stats2-container7 thq-grid-2">
             <div className="stats2-container8">
-              <h2>
+              <h2 className="thq-heading-2">
                 {props.stat3 ?? (
                   <Fragment>
-                    <h2 className="stats2-text30 thq-heading-2">Integration</h2>
+                    <span className="stats2-text30">Integration</span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.stat3Description ?? (
                   <Fragment>
-                    <span className="stats2-text22 thq-body-small">
+                    <span className="stats2-text22">
                       Integrating big data for valuable insights
                     </span>
                   </Fragment>
@@ -98,19 +94,17 @@ const Stats2 = (props) => {
               </span>
             </div>
             <div className="stats2-container9">
-              <h2>
+              <h2 className="thq-heading-2">
                 {props.stat4 ?? (
                   <Fragment>
-                    <h2 className="stats2-text25 thq-heading-2">
-                      AI Solutions
-                    </h2>
+                    <span className="stats2-text25">AI Solutions</span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.stat4Description ?? (
                   <Fragment>
-                    <span className="stats2-text24 thq-body-small">
+                    <span className="stats2-text24">
                       Implementing AI solutions for valuable insights
                     </span>
                   </Fragment>

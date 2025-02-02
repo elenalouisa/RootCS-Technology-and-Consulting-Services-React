@@ -10,17 +10,17 @@ const Contact15 = (props) => {
       <div className="contact15-max-width thq-section-max-width">
         <div className="contact15-section-title">
           <div className="contact15-content1">
-            <h2>
+            <h2 className="thq-heading-2">
               {props.heading1 ?? (
                 <Fragment>
-                  <h2 className="contact15-text14 thq-heading-2">Contact Us</h2>
+                  <span className="contact15-text14">Contact Us</span>
                 </Fragment>
               )}
             </h2>
-            <p>
+            <p className="contact15-text11 thq-body-large">
               {props.content2 ?? (
                 <Fragment>
-                  <p className="contact15-text16 thq-body-large">
+                  <span className="contact15-text15">
                     <span>
                       Feel free to reach out to us via phone for a consultation
                       or any inquiries you may have. Our team of experts is
@@ -40,7 +40,7 @@ const Contact15 = (props) => {
                       Your success is our priority, and we look forward to
                       hearing from you.
                     </span>
-                  </p>
+                  </span>
                 </Fragment>
               )}
             </p>
@@ -55,12 +55,13 @@ const Contact15 = (props) => {
               <div className="contact15-content3">
                 <h3 className="contact15-text12 thq-heading-3">Email</h3>
               </div>
-              <a href="mailto:?subject=" className="contact15-email">
+              <a
+                href="mailto:?subject="
+                className="contact15-email thq-body-small"
+              >
                 {props.email1 ?? (
                   <Fragment>
-                    <span className="contact15-text21 thq-body-small">
-                      sales@rootcs.org
-                    </span>
+                    <span className="contact15-text20">sales@rootcs.org</span>
                   </Fragment>
                 )}
               </a>
@@ -74,12 +75,13 @@ const Contact15 = (props) => {
               <div className="contact15-content5">
                 <h3 className="contact15-text13 thq-heading-3">Phone</h3>
               </div>
-              <a href="tel:614-963-5765" className="contact15-phone">
+              <a
+                href="tel:614-963-5765"
+                className="contact15-phone thq-body-small"
+              >
                 {props.phone1 ?? (
                   <Fragment>
-                    <span className="contact15-text15 thq-body-small">
-                      614-963-5765
-                    </span>
+                    <span className="contact15-text21">614-963-5765</span>
                   </Fragment>
                 )}
               </a>
@@ -93,16 +95,16 @@ const Contact15 = (props) => {
 
 Contact15.defaultProps = {
   heading1: undefined,
-  phone1: undefined,
   content2: undefined,
   email1: undefined,
+  phone1: undefined,
 }
 
 Contact15.propTypes = {
   heading1: PropTypes.element,
-  phone1: PropTypes.element,
   content2: PropTypes.element,
   email1: PropTypes.element,
+  phone1: PropTypes.element,
 }
 
 export default Contact15

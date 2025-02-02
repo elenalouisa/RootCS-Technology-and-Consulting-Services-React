@@ -34,36 +34,47 @@ const Schedule = (props) => {
       <Navbar8
         link1={
           <Fragment>
-            <span className="schedule-text10 thq-link thq-body-small">
-              Home
-            </span>
+            <span className="schedule-text10">Home</span>
           </Fragment>
         }
-        page3={
+        link2={
           <Fragment>
-            <span className="schedule-text11 thq-body-large">Our Work</span>
+            <span className="schedule-text11">Services</span>
+          </Fragment>
+        }
+        link3={
+          <Fragment>
+            <span className="schedule-text12">About</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="schedule-text12 thq-link thq-body-small">
-              About
-            </span>
+            <span className="schedule-text13">About</span>
           </Fragment>
         }
         page1={
           <Fragment>
-            <span className="schedule-text13 thq-body-large">Overview</span>
+            <span className="schedule-text14">Overview</span>
+          </Fragment>
+        }
+        page2={
+          <Fragment>
+            <span className="schedule-text15">Culture</span>
+          </Fragment>
+        }
+        page3={
+          <Fragment>
+            <span className="schedule-text16">Our Work</span>
           </Fragment>
         }
         page4={
           <Fragment>
-            <span className="schedule-text14 thq-body-large">Page Four</span>
+            <span className="schedule-text17">Page Four</span>
           </Fragment>
         }
         link21={
           <Fragment>
-            <span className="schedule-text15 thq-link thq-body-small">
+            <span className="schedule-text18">
               <span>About Us</span>
               <br></br>
             </span>
@@ -71,28 +82,7 @@ const Schedule = (props) => {
         }
         action1={
           <Fragment>
-            <span className="schedule-text18">Contact</span>
-          </Fragment>
-        }
-        link2={
-          <Fragment>
-            <span className="schedule-text19 thq-link thq-body-small">
-              Services
-            </span>
-          </Fragment>
-        }
-        link3={
-          <Fragment>
-            <span className="schedule-text20 thq-link thq-body-small">
-              About
-            </span>
-          </Fragment>
-        }
-        page4Description={
-          <Fragment>
-            <span className="schedule-text21 thq-body-small">
-              Page Four Description
-            </span>
+            <span className="schedule-text21">Contact</span>
           </Fragment>
         }
         action2={
@@ -100,33 +90,33 @@ const Schedule = (props) => {
             <span className="schedule-text22">Login</span>
           </Fragment>
         }
-        page2={
-          <Fragment>
-            <span className="schedule-text23 thq-body-large">Culture</span>
-          </Fragment>
-        }
         action11={
           <Fragment>
-            <span className="schedule-text24">Schedule</span>
+            <span className="schedule-text23">Schedule</span>
           </Fragment>
         }
         rootClassName="navbar8root-class-name5"
+        page4Description={
+          <Fragment>
+            <span className="schedule-text24">Page Four Description</span>
+          </Fragment>
+        }
       ></Navbar8>
       <AppComponent rootClassName="app-componentroot-class-name"></AppComponent>
       <Footer4
-        link3={
+        link1={
           <Fragment>
-            <span className="schedule-text25 thq-body-small">Contact Us</span>
+            <span className="schedule-text25">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="schedule-text26 thq-body-small">About Us</span>
+            <span className="schedule-text26">About Us</span>
           </Fragment>
         }
-        link1={
+        link3={
           <Fragment>
-            <span className="schedule-text27 thq-body-small">Services</span>
+            <span className="schedule-text27">Contact Us</span>
           </Fragment>
         }
         rootClassName="footer4root-class-name"

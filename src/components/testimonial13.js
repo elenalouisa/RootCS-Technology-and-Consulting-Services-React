@@ -9,21 +9,21 @@ const Testimonial13 = (props) => {
     <div className="thq-section-padding">
       <div className="testimonial13-max-width thq-section-max-width">
         <div className="testimonial13-section-title">
-          <h2>
+          <h2 className="testimonial13-title thq-heading-2">
             {props.heading1 ?? (
               <Fragment>
-                <h2 className="testimonial13-text18 thq-heading-2">
+                <span className="testimonial13-text18">
                   Client Testimonials
-                </h2>
+                </span>
               </Fragment>
             )}
           </h2>
-          <p>
+          <p className="testimonial13-subtitle thq-body-large">
             {props.content1 ?? (
               <Fragment>
-                <p className="testimonial13-text20 thq-body-large">
+                <span className="testimonial13-text20">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                </span>
               </Fragment>
             )}
           </p>
@@ -47,15 +47,15 @@ const Testimonial13 = (props) => {
                 <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
               </svg>
             </div>
-            <p>
+            <p className="testimonial13-text10 thq-body-large">
               {props.review1 ?? (
                 <Fragment>
-                  <p className="testimonial13-text16 thq-body-large">
+                  <span className="testimonial13-text16">
                     Root Consulting Services provided us with exceptional
                     guidance and support throughout our digital transformation
                     journey. Their tailored solutions have significantly
                     improved our efficiency and competitiveness in the market.
-                  </p>
+                  </span>
                 </Fragment>
               )}
             </p>
@@ -66,19 +66,17 @@ const Testimonial13 = (props) => {
                 className="testimonial13-avatar-image1 thq-img-ratio-1-1 thq-img-round"
               />
               <div className="testimonial13-avatar-content1">
-                <span>
+                <span className="testimonial13-text11 thq-body-small">
                   {props.author1Name ?? (
                     <Fragment>
-                      <span className="testimonial13-text22 thq-body-small">
-                        John Doe
-                      </span>
+                      <span className="testimonial13-text22">John Doe</span>
                     </Fragment>
                   )}
                 </span>
-                <span>
+                <span className="thq-body-small">
                   {props.author1Position ?? (
                     <Fragment>
-                      <span className="testimonial13-text23 thq-body-small">
+                      <span className="testimonial13-text23">
                         CEO, Company ABC
                       </span>
                     </Fragment>
@@ -110,15 +108,15 @@ const Testimonial13 = (props) => {
                 <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
               </svg>
             </div>
-            <p>
+            <p className="testimonial13-text13 thq-body-large">
               {props.review2 ?? (
                 <Fragment>
-                  <p className="testimonial13-text19 thq-body-large">
+                  <span className="testimonial13-text19">
                     We are extremely satisfied with the cloud services and big
                     data integration solutions offered by Root Consulting
                     Services. Their expertise has been instrumental in helping
                     us achieve our business goals.
-                  </p>
+                  </span>
                 </Fragment>
               )}
             </p>
@@ -129,19 +127,17 @@ const Testimonial13 = (props) => {
                 className="testimonial13-avatar-image2 thq-img-round"
               />
               <div className="testimonial13-avatar-content2">
-                <span>
+                <span className="testimonial13-text14 thq-body-small">
                   {props.author2Name ?? (
                     <Fragment>
-                      <span className="testimonial13-text17 thq-body-small">
-                        Jane Smith
-                      </span>
+                      <span className="testimonial13-text17">Jane Smith</span>
                     </Fragment>
                   )}
                 </span>
-                <span>
+                <span className="thq-body-small">
                   {props.author2Position ?? (
                     <Fragment>
-                      <span className="testimonial13-text21 thq-body-small">
+                      <span className="testimonial13-text21">
                         CTO, Company XYZ
                       </span>
                     </Fragment>

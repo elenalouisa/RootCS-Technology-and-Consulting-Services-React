@@ -41,19 +41,19 @@ const Features24 = (props) => {
               {activeTab === 0 && <div className="features24-container3"></div>}
             </div>
             <div className="features24-content1">
-              <h2>
+              <h2 className="thq-heading-2">
                 {props.feature1Title ?? (
                   <Fragment>
-                    <h2 className="features24-text5 thq-heading-2">
+                    <span className="features24-text5">
                       Digital Transformation
-                    </h2>
+                    </span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.feature1Description ?? (
                   <Fragment>
-                    <span className="features24-text2 thq-body-small">
+                    <span className="features24-text2">
                       Tailored solutions for your digital journey
                     </span>
                   </Fragment>
@@ -69,19 +69,19 @@ const Features24 = (props) => {
               {activeTab === 1 && <div className="features24-container4"></div>}
             </div>
             <div className="features24-content2">
-              <h2>
+              <h2 className="thq-heading-2">
                 {props.feature2Title ?? (
                   <Fragment>
-                    <h2 className="features24-text3 thq-heading-2">
+                    <span className="features24-text3">
                       Process Optimization
-                    </h2>
+                    </span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.feature2Description ?? (
                   <Fragment>
-                    <span className="features24-text1 thq-body-small">
+                    <span className="features24-text1">
                       Optimize and automate ERP and CRM processes
                     </span>
                   </Fragment>
@@ -97,19 +97,17 @@ const Features24 = (props) => {
               {activeTab === 2 && <div className="features24-container5"></div>}
             </div>
             <div className="features24-content3">
-              <h2>
+              <h2 className="thq-heading-2">
                 {props.feature3Title ?? (
                   <Fragment>
-                    <h2 className="features24-text6 thq-heading-2">
-                      Data and Analytics
-                    </h2>
+                    <span className="features24-text6">Data and Analytics</span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small">
                 {props.feature3Description ?? (
                   <Fragment>
-                    <span className="features24-text4 thq-body-small">
+                    <span className="features24-text4">
                       Utilize advanced analytics to drive business decisions
                     </span>
                   </Fragment>

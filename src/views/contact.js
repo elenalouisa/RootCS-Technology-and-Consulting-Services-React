@@ -34,53 +34,47 @@ const Contact = (props) => {
       <Navbar8
         link1={
           <Fragment>
-            <span className="contact-text10 thq-link thq-body-small">Home</span>
+            <span className="contact-text10">Home</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="contact-text11 thq-link thq-body-small">
-              Services
-            </span>
+            <span className="contact-text11">Services</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="contact-text12 thq-link thq-body-small">
-              About
-            </span>
+            <span className="contact-text12">About</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="contact-text13 thq-link thq-body-small">
-              About
-            </span>
+            <span className="contact-text13">About</span>
           </Fragment>
         }
         page1={
           <Fragment>
-            <span className="contact-text14 thq-body-large">Overview</span>
+            <span className="contact-text14">Overview</span>
           </Fragment>
         }
         page2={
           <Fragment>
-            <span className="contact-text15 thq-body-large">Culture</span>
+            <span className="contact-text15">Culture</span>
           </Fragment>
         }
         page3={
           <Fragment>
-            <span className="contact-text16 thq-body-large">Our Work</span>
+            <span className="contact-text16">Our Work</span>
           </Fragment>
         }
         page4={
           <Fragment>
-            <span className="contact-text17 thq-body-large">Page Four</span>
+            <span className="contact-text17">Page Four</span>
           </Fragment>
         }
         link21={
           <Fragment>
-            <span className="contact-text18 thq-link thq-body-small">
+            <span className="contact-text18">
               <span>About Us</span>
               <br></br>
             </span>
@@ -96,40 +90,35 @@ const Contact = (props) => {
             <span className="contact-text22">Login</span>
           </Fragment>
         }
+        action11={
+          <Fragment>
+            <span className="contact-text23">Schedule</span>
+          </Fragment>
+        }
         rootClassName="navbar8root-class-name3"
         page4Description={
           <Fragment>
-            <span className="contact-text23 thq-body-small">
-              Page Four Description
-            </span>
-          </Fragment>
-        }
-        action11={
-          <Fragment>
-            <span className="contact-text24">Schedule</span>
+            <span className="contact-text24">Page Four Description</span>
           </Fragment>
         }
       ></Navbar8>
       <Contact15
-        heading1={
+        email1={
           <Fragment>
-            <span className="contact-text25 thq-heading-2">Contact Us</span>
+            <span className="contact-text25">sales@rootcs.org</span>
           </Fragment>
         }
         phone1={
           <Fragment>
-            <span className="contact-text26 thq-body-small">614-963-5765</span>
+            <span className="contact-text26">614-489-9007</span>
           </Fragment>
         }
         content2={
           <Fragment>
-            <span className="contact-text27 thq-body-large">
+            <span className="contact-text27">
               <span>
-                Feel free to reach out to us via phone for a consultation or any
-                inquiries you may have. Our team of experts is ready to assist
-                you in your digital transformation journey. Let us partner with
-                you to drive innovation, optimize processes, and leverage data
-                analytics for sustainable business growth.
+                Let us partner with you to drive innovation, optimize processes,
+                and leverage data analytics for sustainable business growth.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -145,28 +134,26 @@ const Contact = (props) => {
             </span>
           </Fragment>
         }
-        email1={
+        heading1={
           <Fragment>
-            <span className="contact-text32 thq-body-small">
-              sales@rootcs.org
-            </span>
+            <span className="contact-text32">Contact Us</span>
           </Fragment>
         }
       ></Contact15>
       <Footer4
         link1={
           <Fragment>
-            <span className="contact-text33 thq-body-small">Services</span>
+            <span className="contact-text33">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="contact-text34 thq-body-small">About Us</span>
+            <span className="contact-text34">About Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="contact-text35 thq-body-small">Contact Us</span>
+            <span className="contact-text35">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

@@ -13,145 +13,144 @@ const ContentList1 = (props) => {
         <div className="content-list1-content thq-flex-column">
           <ul className="content-list1-ul thq-flex-column">
             <li className="list-item thq-flex-column">
-              <h2>
+              <h2 className="content-list1-heading1 thq-heading-2">
                 {props.heading1 ?? (
                   <Fragment>
-                    <h2 className="content-list1-text11 thq-heading-2">
+                    <span className="content-list1-text11">
                       About Root Consulting Services
-                    </h2>
+                    </span>
                   </Fragment>
                 )}
               </h2>
-              <p>
+              <p className="thq-body-small">
                 {props.content1 ?? (
                   <Fragment>
-                    <p className="content-list1-text12 thq-body-small">
-                      Root Consulting Services is a leading company that
-                      specializes in guiding organizations through digital
-                      transformation journeys. With a focus on cloud services,
-                      ERP, CRM, and HCM solutions, we help businesses optimize
-                      their processes and leverage data and analytics to drive
-                      success.
-                    </p>
+                    <span className="content-list1-text12">
+                      RootCS was founded on the belief that every digital
+                      transformation starts at the roots. With decades of
+                      combined expertise in IT strategy, DevOps, ERP/CRM
+                      integrations, AI implementations, and advanced analytics,
+                      our team is dedicated to helping IT companies modernize
+                      and thrive. Our holistic approach ensures that every
+                      solution is tailored to your unique challenges and goals.
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading2 ?? (
                   <Fragment>
-                    <h3 className="content-list1-text15 thq-heading-3">
-                      Our Approach
-                    </h3>
+                    <span className="content-list1-text15">Our Approach</span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content2 ?? (
                   <Fragment>
-                    <p className="content-list1-text16 thq-body-small">
+                    <span className="content-list1-text16">
                       At Root Consulting Services, we believe in providing
                       tailored solutions to meet the unique needs of each
                       organization. Our methodology ensures that our clients
                       receive customized strategies that enhance efficiency and
                       competitiveness in the digital landscape.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading3 ?? (
                   <Fragment>
-                    <h3 className="content-list1-text19 thq-heading-3">
+                    <span className="content-list1-text19">
                       Services Offered
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content3 ?? (
                   <Fragment>
-                    <p className="content-list1-text10 thq-body-small">
+                    <span className="content-list1-text10">
                       We offer a range of services including cloud services, ERP
                       implementation, CRM solutions, and HCM optimization. Our
                       team of experts is dedicated to helping businesses harness
                       the power of technology to achieve their goals.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading4 ?? (
                   <Fragment>
-                    <h3 className="content-list1-text13 thq-heading-3">
+                    <span className="content-list1-text13">
                       Process Optimization
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content4 ?? (
                   <Fragment>
-                    <p className="content-list1-text17 thq-body-small">
+                    <span className="content-list1-text17">
                       Our focus on process optimization sets us apart. We work
                       closely with our clients to streamline their operations,
                       improve workflows, and drive productivity. By optimizing
                       processes, we help businesses achieve sustainable growth
                       and success.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading5 ?? (
                   <Fragment>
-                    <h3 className="content-list1-text21 thq-heading-3">
+                    <span className="content-list1-text21">
                       Data and Analytics
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content5 ?? (
                   <Fragment>
-                    <p className="content-list1-text20 thq-body-small">
+                    <span className="content-list1-text20">
                       Data is at the core of everything we do. We help
                       organizations leverage data and analytics to gain valuable
                       insights, make informed decisions, and drive innovation.
                       Our data-driven approach empowers businesses to stay ahead
                       in a competitive market.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>
             </li>
             <li className="list-item">
-              <h3>
+              <h3 className="thq-heading-3">
                 {props.heading6 ?? (
                   <Fragment>
-                    <h3 className="content-list1-text18 thq-heading-3">
+                    <span className="content-list1-text18">
                       Customized Solutions
-                    </h3>
+                    </span>
                   </Fragment>
                 )}
               </h3>
-              <p>
+              <p className="thq-body-small">
                 {props.content6 ?? (
                   <Fragment>
-                    <p className="content-list1-text14 thq-body-small">
+                    <span className="content-list1-text14">
                       We understand that every business is unique. That&apos;s
                       why we offer customized solutions that are tailored to the
                       specific needs of each organization. Our goal is to
                       deliver results that exceed expectations and drive
                       long-term success.
-                    </p>
+                    </span>
                   </Fragment>
                 )}
               </p>

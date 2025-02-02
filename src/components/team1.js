@@ -9,27 +9,25 @@ const Team1 = (props) => {
     <div className="thq-section-padding">
       <div className="team1-max-width thq-section-max-width">
         <div className="team1-section-title">
-          <span>
+          <span className="thq-body-small team1-text10">
             {props.content1 ?? (
               <Fragment>
-                <span className="team1-text55 thq-body-small">
-                  Join Our Team Today!
-                </span>
+                <span className="team1-text55">Join Our Team Today!</span>
               </Fragment>
             )}
           </span>
           <div className="team1-content10">
-            <h2>
+            <h2 className="thq-heading-2 team1-text11">
               {props.heading1 ?? (
                 <Fragment>
-                  <h2 className="team1-text60 thq-heading-2">Meet Our Team</h2>
+                  <span className="team1-text60">Meet Our Team</span>
                 </Fragment>
               )}
             </h2>
-            <p>
+            <p className="thq-body-large team1-text12">
               {props.content2 ?? (
                 <Fragment>
-                  <p className="team1-text62 thq-body-large">
+                  <span className="team1-text62">
                     <span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       <span
@@ -45,7 +43,7 @@ const Team1 = (props) => {
                         }}
                       />
                     </span>
-                  </p>
+                  </span>
                 </Fragment>
               )}
             </p>
@@ -63,29 +61,25 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content13">
                     <div className="team1-title1">
-                      <span>
+                      <span className="team1-text13 thq-body-small">
                         {props.member1 ?? (
                           <Fragment>
-                            <span className="team1-text56 thq-body-small">
-                              John Doe
-                            </span>
+                            <span className="team1-text56">John Doe</span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text14 thq-body-small">
                         {props.member1Job ?? (
                           <Fragment>
-                            <span className="team1-text42 thq-body-small">
-                              CEO
-                            </span>
+                            <span className="team1-text42">CEO</span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text15 thq-body-small">
                       {props.member1Content ?? (
                         <Fragment>
-                          <span className="team1-text67 thq-body-small">
+                          <span className="team1-text67">
                             John is a visionary leader with a strong background
                             in digital transformation strategies.
                           </span>
@@ -116,29 +110,25 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content14">
                     <div className="team1-title2">
-                      <span>
+                      <span className="team1-text16 thq-body-small">
                         {props.member2 ?? (
                           <Fragment>
-                            <span className="team1-text48 thq-body-small">
-                              Jane Smith
-                            </span>
+                            <span className="team1-text48">Jane Smith</span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text17 thq-body-small">
                         {props.member2Job ?? (
                           <Fragment>
-                            <span className="team1-text69 thq-body-small">
-                              CTO
-                            </span>
+                            <span className="team1-text69">CTO</span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text18 thq-body-small">
                       {props.member2Content ?? (
                         <Fragment>
-                          <span className="team1-text54 thq-body-small">
+                          <span className="team1-text54">
                             Jane brings extensive technical expertise in cloud
                             services and AI.
                           </span>
@@ -171,29 +161,27 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content15">
                     <div className="team1-title3">
-                      <span>
+                      <span className="team1-text19 thq-body-small">
                         {props.member3 ?? (
                           <Fragment>
-                            <span className="team1-text50 thq-body-small">
+                            <span className="team1-text50">
                               Michael Johnson
                             </span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text20 thq-body-small">
                         {props.member3Job ?? (
                           <Fragment>
-                            <span className="team1-text72 thq-body-small">
-                              Data Analyst
-                            </span>
+                            <span className="team1-text72">Data Analyst</span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text21 thq-body-small">
                       {props.member3Content ?? (
                         <Fragment>
-                          <span className="team1-text68 thq-body-small">
+                          <span className="team1-text68">
                             Michael excels in big data integration and
                             analytics, driving actionable insights for clients.
                           </span>
@@ -224,29 +212,25 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content16">
                     <div className="team1-title4">
-                      <span>
+                      <span className="team1-text22 thq-body-small">
                         {props.member4 ?? (
                           <Fragment>
-                            <span className="team1-text73 thq-body-small">
-                              Emily Brown
-                            </span>
+                            <span className="team1-text73">Emily Brown</span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text23 thq-body-small">
                         {props.member4Job ?? (
                           <Fragment>
-                            <span className="team1-text70 thq-body-small">
-                              ERP Specialist
-                            </span>
+                            <span className="team1-text70">ERP Specialist</span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text24 thq-body-small">
                       {props.member4Content ?? (
                         <Fragment>
-                          <span className="team1-text40 thq-body-small">
+                          <span className="team1-text40">
                             Emily specializes in ERP solutions, optimizing
                             business processes for efficiency.
                           </span>
@@ -281,29 +265,25 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content17">
                     <div className="team1-title5">
-                      <span>
+                      <span className="team1-text25 thq-body-small">
                         {props.member5 ?? (
                           <Fragment>
-                            <span className="team1-text47 thq-body-small">
-                              Alex Lee
-                            </span>
+                            <span className="team1-text47">Alex Lee</span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text26 thq-body-small">
                         {props.member5Job ?? (
                           <Fragment>
-                            <span className="team1-text59 thq-body-small">
-                              CRM Consultant
-                            </span>
+                            <span className="team1-text59">CRM Consultant</span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text27 thq-body-small">
                       {props.member5Content ?? (
                         <Fragment>
-                          <span className="team1-text53 thq-body-small">
+                          <span className="team1-text53">
                             Alex is dedicated to enhancing customer
                             relationships through CRM implementations.
                           </span>
@@ -334,29 +314,25 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content18">
                     <div className="team1-title6">
-                      <span>
+                      <span className="team1-text28 thq-body-small">
                         {props.member6 ?? (
                           <Fragment>
-                            <span className="team1-text51 thq-body-small">
-                              Sarah Wilson
-                            </span>
+                            <span className="team1-text51">Sarah Wilson</span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text29 thq-body-small">
                         {props.member6Job ?? (
                           <Fragment>
-                            <span className="team1-text65 thq-body-small">
-                              AI Engineer
-                            </span>
+                            <span className="team1-text65">AI Engineer</span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text30 thq-body-small">
                       {props.member6Content ?? (
                         <Fragment>
-                          <span className="team1-text41 thq-body-small">
+                          <span className="team1-text41">
                             Sarah leverages AI technologies to drive innovation
                             and automation for clients.
                           </span>
@@ -389,29 +365,27 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content19">
                     <div className="team1-title7">
-                      <span>
+                      <span className="team1-text31 thq-body-small">
                         {props.member7 ?? (
                           <Fragment>
-                            <span className="team1-text57 thq-body-small">
-                              David Garcia
-                            </span>
+                            <span className="team1-text57">David Garcia</span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text32 thq-body-small">
                         {props.member7Job ?? (
                           <Fragment>
-                            <span className="team1-text71 thq-body-small">
+                            <span className="team1-text71">
                               Cloud Architect
                             </span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text33 thq-body-small">
                       {props.member7Content ?? (
                         <Fragment>
-                          <span className="team1-text58 thq-body-small">
+                          <span className="team1-text58">
                             David designs scalable cloud solutions to support
                             digital transformation initiatives.
                           </span>
@@ -442,29 +416,29 @@ const Team1 = (props) => {
                   />
                   <div className="team1-content20">
                     <div className="team1-title8">
-                      <span>
+                      <span className="team1-text34 thq-body-small">
                         {props.member8 ?? (
                           <Fragment>
-                            <span className="team1-text52 thq-body-small">
+                            <span className="team1-text52">
                               Olivia Martinez
                             </span>
                           </Fragment>
                         )}
                       </span>
-                      <span>
+                      <span className="team1-text35 thq-body-small">
                         {props.member8Job ?? (
                           <Fragment>
-                            <span className="team1-text61 thq-body-small">
+                            <span className="team1-text61">
                               Business Analyst
                             </span>
                           </Fragment>
                         )}
                       </span>
                     </div>
-                    <span>
+                    <span className="team1-text36 thq-body-small">
                       {props.member8Content ?? (
                         <Fragment>
-                          <span className="team1-text46 thq-body-small">
+                          <span className="team1-text46">
                             Olivia provides strategic insights for businesses
                             looking to improve competitiveness.
                           </span>
@@ -492,19 +466,17 @@ const Team1 = (props) => {
           </div>
           <div className="team1-content21">
             <div className="team1-content22">
-              <h2>
+              <h2 className="thq-heading-2 team1-text37">
                 {props.heading2 ?? (
                   <Fragment>
-                    <h2 className="team1-text49 thq-heading-2">
-                      We’re hiring!
-                    </h2>
+                    <span className="team1-text49">We’re hiring!</span>
                   </Fragment>
                 )}
               </h2>
-              <span>
+              <span className="thq-body-small team1-text38">
                 {props.content3 ?? (
                   <Fragment>
-                    <span className="team1-text43 thq-body-small">
+                    <span className="team1-text43">
                       <span>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         <span
@@ -526,12 +498,10 @@ const Team1 = (props) => {
               </span>
             </div>
             <button className="team1-button thq-button-filled">
-              <span>
+              <span className="thq-body-small">
                 {props.actionContent ?? (
                   <Fragment>
-                    <span className="team1-text66 thq-body-small">
-                      Open positions
-                    </span>
+                    <span className="team1-text66">Open positions</span>
                   </Fragment>
                 )}
               </span>

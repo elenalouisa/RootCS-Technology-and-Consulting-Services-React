@@ -9,10 +9,10 @@ const ContactForm7 = (props) => {
     <div className="contact-form7-contact1 thq-section-padding">
       <div className="contact-form7-max-width thq-flex-row thq-section-max-width">
         <div className="contact-form7-section-title thq-flex-column">
-          <span>
+          <span className="thq-body-small">
             {props.content2 ?? (
               <Fragment>
-                <span className="contact-form7-text26 thq-body-small">
+                <span className="contact-form7-text26">
                   <span>
                     Have a question or need more information?
                     <span
@@ -28,19 +28,17 @@ const ContactForm7 = (props) => {
             )}
           </span>
           <div className="contact-form7-content1">
-            <h2>
+            <h2 className="thq-heading-2">
               {props.heading1 ?? (
                 <Fragment>
-                  <h2 className="contact-form7-text19 thq-heading-2">
-                    Contact Us
-                  </h2>
+                  <span className="contact-form7-text19">Contact Us</span>
                 </Fragment>
               )}
             </h2>
-            <span>
+            <span className="thq-body-small contact-form7-text12">
               {props.content1 ?? (
                 <Fragment>
-                  <span className="contact-form7-text22 thq-body-small">
+                  <span className="contact-form7-text22">
                     <span>Get in touch with us</span>
                     <span>
                       <span
@@ -59,10 +57,10 @@ const ContactForm7 = (props) => {
               <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                 <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
               </svg>
-              <span>
+              <span className="thq-body-small">
                 {props.email ?? (
                   <Fragment>
-                    <span className="contact-form7-text21 thq-body-small">
+                    <span className="contact-form7-text21">
                       sales@rootcs.org
                     </span>
                   </Fragment>
@@ -73,12 +71,10 @@ const ContactForm7 = (props) => {
               <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                 <path d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"></path>
               </svg>
-              <span>
+              <span className="thq-body-small">
                 {props.phone ?? (
                   <Fragment>
-                    <span className="contact-form7-text20 thq-body-small">
-                      614.963.5765
-                    </span>
+                    <span className="contact-form7-text20">614.963.5765</span>
                   </Fragment>
                 )}
               </span>
@@ -150,9 +146,9 @@ const ContactForm7 = (props) => {
                 Message
               </label>
               <textarea
+                id="contact-form-7-message"
                 rows="10"
                 placeholder="Enter your message"
-                id="contact-form-7-message"
                 className="contact-form7-textarea thq-input"
               ></textarea>
             </div>
@@ -174,12 +170,10 @@ const ContactForm7 = (props) => {
             onClick={props.submit}
             className="contact-form7-button thq-button-filled"
           >
-            <span onClick={props.submit}>
+            <span onClick={props.submit} className="thq-body-small">
               {props.action ?? (
                 <Fragment>
-                  <span className="contact-form7-text25 thq-body-small">
-                    Submit
-                  </span>
+                  <span className="contact-form7-text25">Submit</span>
                 </Fragment>
               )}
             </span>

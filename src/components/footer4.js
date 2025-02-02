@@ -20,26 +20,24 @@ const Footer4 = (props) => {
             />
           </div>
           <div className="footer4-links">
-            <Link to="/services" className="footer4-navlink1">
+            <Link to="/services" className="thq-body-small">
               {props.link1 ?? (
                 <Fragment>
-                  <span className="footer4-text4 thq-body-small">Services</span>
+                  <span className="footer4-text4">Services</span>
                 </Fragment>
               )}
             </Link>
-            <Link to="/about" className="footer4-navlink2">
+            <Link to="/about" className="thq-body-small">
               {props.link2 ?? (
                 <Fragment>
-                  <span className="footer4-text3 thq-body-small">About Us</span>
+                  <span className="footer4-text3">About Us</span>
                 </Fragment>
               )}
             </Link>
-            <Link to="/contact" className="footer4-navlink3">
+            <Link to="/contact" className="thq-body-small">
               {props.link3 ?? (
                 <Fragment>
-                  <span className="footer4-text2 thq-body-small">
-                    Contact Us
-                  </span>
+                  <span className="footer4-text2">Contact Us</span>
                 </Fragment>
               )}
             </Link>
@@ -50,7 +48,7 @@ const Footer4 = (props) => {
           <div className="footer4-row">
             <div className="footer4-container">
               <span className="thq-body-small">
-                © 2024 Root Consulting Services, LLC.
+                © 2025 Root Consulting Services, LLC.
               </span>
             </div>
             <div className="footer4-footer-links"></div>

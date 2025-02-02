@@ -9,20 +9,20 @@ const BlogPostHeader8 = (props) => {
     <div className="blog-post-header8-blog-post-header3 thq-section-padding">
       <div className="blog-post-header8-max-width thq-section-max-width">
         <div className="blog-post-header8-content thq-flex-column">
-          <h1>
+          <h1 className="blog-post-header8-title thq-heading-1">
             {props.blogPostTitle ?? (
               <Fragment>
-                <h1 className="blog-post-header8-text2 thq-heading-1">
+                <span className="blog-post-header8-text2">
                   Empower Your Business Through Technology with Root Consulting
                   Services
-                </h1>
+                </span>
               </Fragment>
             )}
           </h1>
-          <span>
+          <span className="blog-post-header8-author-name thq-body-small">
             {props.authorName ?? (
               <Fragment>
-                <span className="blog-post-header8-text1 thq-body-small">
+                <span className="blog-post-header8-text1">
                   Root Consulting Services Team
                 </span>
               </Fragment>

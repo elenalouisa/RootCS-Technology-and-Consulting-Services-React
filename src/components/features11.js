@@ -10,29 +10,27 @@ const Features11 = (props) => {
       <div className="features11-max-width thq-section-max-width">
         <div className="thq-flex-row features11-section-title">
           <div className="features11-column thq-flex-column">
-            <span>
+            <span className="thq-body-small">
               {props.slogan ?? (
                 <Fragment>
-                  <span className="features11-text21 thq-body-small">
+                  <span className="features11-text21">
                     Empowering Your Business Through Innovation
                   </span>
                 </Fragment>
               )}
             </span>
-            <h2>
+            <h2 className="thq-heading-2 features11-text11">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <h2 className="features11-text19 thq-heading-2">
-                    Key Features
-                  </h2>
+                  <span className="features11-text19">Key Features</span>
                 </Fragment>
               )}
             </h2>
           </div>
-          <span>
+          <span className="thq-body-small">
             {props.sectionDescription ?? (
               <Fragment>
-                <span className="features11-text13 thq-body-small">
+                <span className="features11-text13">
                   Explore the key features that Root Consulting Services offers
                   to drive your digital transformation.
                 </span>
@@ -49,19 +47,17 @@ const Features11 = (props) => {
                 className="thq-img-ratio-4-3 features11-feature1-image"
               />
               <div className="features11-content2 thq-flex-column">
-                <h3>
+                <h3 className="thq-heading-3">
                   {props.feature1Title ?? (
                     <Fragment>
-                      <h3 className="features11-text23 thq-heading-3">
-                        Cloud Services
-                      </h3>
+                      <span className="features11-text23">Cloud Services</span>
                     </Fragment>
                   )}
                 </h3>
-                <span>
+                <span className="thq-body-small">
                   {props.feature1Description ?? (
                     <Fragment>
-                      <span className="features11-text20 thq-body-small">
+                      <span className="features11-text20">
                         Customized cloud solutions to optimize your
                         organization&apos;s infrastructure.
                       </span>
@@ -77,19 +73,17 @@ const Features11 = (props) => {
                 className="thq-img-ratio-4-3 features11-feature2-image"
               />
               <div className="features11-content3 thq-flex-column">
-                <h3>
+                <h3 className="thq-heading-3">
                   {props.feature2Title ?? (
                     <Fragment>
-                      <h3 className="features11-text18 thq-heading-3">
-                        ERP Integration
-                      </h3>
+                      <span className="features11-text18">ERP Integration</span>
                     </Fragment>
                   )}
                 </h3>
-                <span>
+                <span className="thq-body-small">
                   {props.feature2Description ?? (
                     <Fragment>
-                      <span className="features11-text16 thq-body-small">
+                      <span className="features11-text16">
                         Seamless integration of ERP systems for streamlined
                         operations.
                       </span>
@@ -105,19 +99,17 @@ const Features11 = (props) => {
                 className="thq-img-ratio-4-3 features11-feature3-image"
               />
               <div className="features11-content4 thq-flex-column">
-                <h3>
+                <h3 className="thq-heading-3">
                   {props.feature3Title ?? (
                     <Fragment>
-                      <h3 className="features11-text14 thq-heading-3">
-                        Data Analytics
-                      </h3>
+                      <span className="features11-text14">Data Analytics</span>
                     </Fragment>
                   )}
                 </h3>
-                <span>
+                <span className="thq-body-small">
                   {props.feature3Description ?? (
                     <Fragment>
-                      <span className="features11-text22 thq-body-small">
+                      <span className="features11-text22">
                         Utilize big data integration for insightful analytics
                         and informed decision-making.
                       </span>
@@ -130,23 +122,19 @@ const Features11 = (props) => {
         </div>
         <div className="features11-actions">
           <button className="thq-button-filled features11-button1">
-            <span>
+            <span className="thq-body-small">
               {props.mainAction ?? (
                 <Fragment>
-                  <span className="features11-text17 thq-body-small">
-                    Tailored Solutions
-                  </span>
+                  <span className="features11-text17">Tailored Solutions</span>
                 </Fragment>
               )}
             </span>
           </button>
           <button className="thq-button-outline features11-button2">
-            <span>
+            <span className="thq-body-small">
               {props.secondaryAction ?? (
                 <Fragment>
-                  <span className="features11-text15 thq-body-small">
-                    Enhanced Efficiency
-                  </span>
+                  <span className="features11-text15">Enhanced Efficiency</span>
                 </Fragment>
               )}
             </span>

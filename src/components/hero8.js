@@ -10,10 +10,10 @@ const Hero8 = (props) => {
       <div className="hero8-max-width thq-flex-column thq-section-max-width">
         <div className="hero8-column">
           <div className="hero8-content">
-            <h1>
+            <h1 className="hero8-text1 thq-heading-1">
               {props.heading1 ?? (
                 <Fragment>
-                  <h1 className="hero8-text2 thq-heading-1">About Us</h1>
+                  <span className="hero8-text2">About Us</span>
                 </Fragment>
               )}
             </h1>

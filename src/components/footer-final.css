@@ -9,18 +9,21 @@
   flex-direction: column;
   justify-content: center;
 }
+ 
 .footer-final-max-width {
   gap: var(--dl-space-space-threeunits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+ 
 .footer-final-content {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+ 
 .footer-final-logo1 {
   gap: 24px;
   display: flex;
@@ -28,21 +31,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-final-logo2 {
   width: 138px;
   height: 77px;
 }
+ 
 .footer-final-links {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: flex-start;
 }
-.footer-final-navlink1 {
-  text-decoration: none;
-}
-.footer-final-navlink2 {
-  text-decoration: none;
-}
+ 
 .footer-final-credits {
   gap: var(--dl-space-space-twounits);
   display: flex;
@@ -50,6 +50,7 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .footer-final-row {
   display: flex;
   align-self: stretch;
@@ -57,41 +58,55 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
+ 
 .footer-final-container {
   display: flex;
   align-items: flex-start;
 }
+ 
 .footer-final-footer-links {
   gap: 24px;
   display: flex;
   align-items: flex-start;
 }
+ 
+.footer-final-text11 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+}
+ 
 .footer-final-text14 {
   display: inline-block;
 }
+ 
 .footer-final-text15 {
-  fill: var(--dl-color-theme-neutral-dark);
-  color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
 }
+ 
 .footer-final-text16 {
   display: inline-block;
 }
+ 
 .footer-final-text17 {
   display: inline-block;
 }
+ 
 .footer-final-text18 {
   display: inline-block;
 }
+ 
 .footer-final-text19 {
   display: inline-block;
 }
+ 
 .footer-final-text20 {
   display: inline-block;
 }
+ 
 .footer-final-text21 {
   display: inline-block;
 }
+ 
 @media(max-width: 767px) {
   .footer-final-row {
     gap: var(--dl-space-space-oneandhalfunits);
@@ -100,6 +115,7 @@
     justify-content: center;
   }
 }
+ 
 @media(max-width: 479px) {
   .footer-final-max-width {
     gap: var(--dl-space-space-oneandhalfunits);

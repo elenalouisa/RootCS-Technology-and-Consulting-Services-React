@@ -11,23 +11,23 @@ const Banner1 = (props) => {
     >
       <div className="banner1-max-width thq-section-max-width">
         <div className="banner1-container2">
-          <h2>
+          <h2 className="banner1-title thq-heading-2">
             {props.heading1 ?? (
               <Fragment>
-                <h2 className="banner1-text3 thq-heading-2">
+                <span className="banner1-text3">
                   Empower Your Business with Advanced Technologies
-                </h2>
+                </span>
               </Fragment>
             )}
           </h2>
-          <h3>
+          <h3 className="banner1-text1 thq-heading-3">
             {props.content1 ?? (
               <Fragment>
-                <h3 className="banner1-text4 thq-heading-3">
+                <span className="banner1-text4">
                   Root Consulting Services specializes in providing tailored
                   solutions for Cloud, Digital Transformation, ERP, CRM, Big
                   Data integration, analysis, and AI.
-                </h3>
+                </span>
               </Fragment>
             )}
           </h3>

@@ -11,13 +11,13 @@ const Hero17 = (props) => {
     <div className={`hero17-header78 ${props.rootClassName} `}>
       <div className="hero17-column thq-section-padding thq-section-max-width">
         <div className="hero17-content">
-          <h1>
+          <h1 className="hero17-text10 thq-heading-1">
             {props.heading1 ?? (
               <Fragment>
-                <h1 className="hero17-text14 thq-heading-1">
+                <span className="hero17-text14">
                   <span>Codify. Everything.</span>
                   <br></br>
-                </h1>
+                </span>
               </Fragment>
             )}
           </h1>
@@ -26,10 +26,10 @@ const Hero17 = (props) => {
             src={props.image1Src1}
             className="hero17-hero-image thq-img-ratio-16-9"
           />
-          <p>
+          <p className="hero17-text11 thq-body-large">
             {props.content1 ?? (
               <Fragment>
-                <p className="hero17-text19 thq-body-large">
+                <span className="hero17-text19">
                   We guide organizations through digital transformation journeys
                   to empower businesses.
                   <span
@@ -37,30 +37,26 @@ const Hero17 = (props) => {
                       __html: ' ',
                     }}
                   />
-                </p>
+                </span>
               </Fragment>
             )}
           </p>
         </div>
         <div className="hero17-actions">
           <button className="thq-button-filled hero17-button1">
-            <Link to="/contact" className="hero17-text12">
+            <Link to="/contact" className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
-                  <span className="hero17-text18 thq-body-small">
-                    Get in Touch
-                  </span>
+                  <span className="hero17-text18">Get in Touch</span>
                 </Fragment>
               )}
             </Link>
           </button>
           <button className="thq-button-outline hero17-button2">
-            <Link to="/services" className="hero17-text13">
+            <Link to="/services" className="thq-body-small">
               {props.action2 ?? (
                 <Fragment>
-                  <span className="hero17-text17 thq-body-small">
-                    Learn More
-                  </span>
+                  <span className="hero17-text17">Learn More</span>
                 </Fragment>
               )}
             </Link>

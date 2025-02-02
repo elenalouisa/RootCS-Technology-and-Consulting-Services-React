@@ -15,39 +15,34 @@ const NavbarFinal = (props) => {
         <div data-thq="thq-navbar-nav" className="navbar-final-desktop-menu">
           <Component3 rootClassName="component3root-class-name2"></Component3>
           <nav className="navbar-final-links1">
-            <Link to="/" className="navbar-final-home">
+            <Link to="/" className="navbar-final-home thq-link thq-body-small">
               {props.link1 ?? (
                 <Fragment>
-                  <span className="navbar-final-text35 thq-link thq-body-small">
-                    Home
-                  </span>
+                  <span className="navbar-final-text35">Home</span>
                 </Fragment>
               )}
             </Link>
-            <a href={props.link1Url1}>
+            <a
+              href={props.link1Url1}
+              className="navbar-final-expertise thq-link thq-body-small"
+            >
               {props.expertise1 ?? (
                 <Fragment>
-                  <span className="navbar-final-text34 thq-link thq-body-small">
-                    Exptertise
-                  </span>
+                  <span className="navbar-final-text34">Exptertise</span>
                 </Fragment>
               )}
             </a>
-            <a href={props.link2Url}>
+            <a href={props.link2Url} className="thq-link thq-body-small">
               {props.link2 ?? (
                 <Fragment>
-                  <span className="navbar-final-text21 thq-link thq-body-small">
-                    Services
-                  </span>
+                  <span className="navbar-final-text21">Services</span>
                 </Fragment>
               )}
             </a>
-            <a href={props.link2Url1}>
+            <a href={props.link2Url1} className="thq-link thq-body-small">
               {props.link21 ?? (
                 <Fragment>
-                  <span className="navbar-final-text29 thq-link thq-body-small">
-                    Industries
-                  </span>
+                  <span className="navbar-final-text29">Industries</span>
                 </Fragment>
               )}
             </a>
@@ -55,12 +50,10 @@ const NavbarFinal = (props) => {
               onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
               className="navbar-final-about-us"
             >
-              <Link to="/about" className="navbar-final-link51">
+              <Link to="/about" className="thq-link thq-body-small">
                 {props.link4 ?? (
                   <Fragment>
-                    <span className="navbar-final-text28 thq-link thq-body-small">
-                      About
-                    </span>
+                    <span className="navbar-final-text28">About</span>
                   </Fragment>
                 )}
               </Link>
@@ -94,7 +87,7 @@ const NavbarFinal = (props) => {
               onClick={() => {}}
               className="navbar-final-contact thq-button-animated thq-button-filled"
             >
-              <span className="thq-body-small">
+              <span>
                 {props.action1 ?? (
                   <Fragment>
                     <span className="navbar-final-text14">Contact</span>
@@ -103,7 +96,7 @@ const NavbarFinal = (props) => {
               </span>
             </Link>
             <button className="navbar-final-action21 thq-button-animated thq-button-outline">
-              <span className="thq-body-small">
+              <span>
                 {props.action2 ?? (
                   <Fragment>
                     <span className="navbar-final-text22">Login</span>
@@ -137,30 +130,30 @@ const NavbarFinal = (props) => {
                 </div>
               </div>
               <nav className="navbar-final-links2">
-                <a href={props.link1Url}>
+                <a
+                  href={props.link1Url}
+                  className="navbar-final-link1 thq-link thq-body-small"
+                >
                   {props.link11 ?? (
                     <Fragment>
-                      <span className="navbar-final-text31 thq-link thq-body-small">
-                        Home
-                      </span>
+                      <span className="navbar-final-text31">Home</span>
                     </Fragment>
                   )}
                 </a>
-                <a href={props.link2Url2}>
+                <a href={props.link2Url2} className="thq-link thq-body-small">
                   {props.link22 ?? (
                     <Fragment>
-                      <span className="navbar-final-text26 thq-link thq-body-small">
-                        Services
-                      </span>
+                      <span className="navbar-final-text26">Services</span>
                     </Fragment>
                   )}
                 </a>
-                <a href={props.link3Url}>
+                <a
+                  href={props.link3Url}
+                  className="navbar-final-link3 thq-link thq-body-small"
+                >
                   {props.link3 ?? (
                     <Fragment>
-                      <span className="navbar-final-text15 thq-link thq-body-small">
-                        About
-                      </span>
+                      <span className="navbar-final-text15">About</span>
                     </Fragment>
                   )}
                 </a>
@@ -169,12 +162,10 @@ const NavbarFinal = (props) => {
                     onClick={() => setLink5AccordionOpen(!link5AccordionOpen)}
                     className="navbar-final-trigger"
                   >
-                    <span>
+                    <span className="thq-link thq-body-small">
                       {props.link41 ?? (
                         <Fragment>
-                          <span className="navbar-final-text19 thq-link thq-body-small">
-                            About
-                          </span>
+                          <span className="navbar-final-text19">About</span>
                         </Fragment>
                       )}
                     </span>
@@ -211,10 +202,10 @@ const NavbarFinal = (props) => {
                             className="navbar-final-page1-image1"
                           />
                           <div className="navbar-final-content1">
-                            <span>
+                            <span className="navbar-final-page11 thq-body-large">
                               {props.page11 ?? (
                                 <Fragment>
-                                  <span className="navbar-final-text25 thq-body-large">
+                                  <span className="navbar-final-text25">
                                     Overview
                                   </span>
                                 </Fragment>
@@ -231,10 +222,10 @@ const NavbarFinal = (props) => {
                             className="navbar-final-page2-image1"
                           />
                           <div className="navbar-final-content2">
-                            <span>
+                            <span className="navbar-final-page21 thq-body-large">
                               {props.page21 ?? (
                                 <Fragment>
-                                  <span className="navbar-final-text33 thq-body-large">
+                                  <span className="navbar-final-text33">
                                     Culture
                                   </span>
                                 </Fragment>
@@ -251,10 +242,10 @@ const NavbarFinal = (props) => {
                             className="navbar-final-page3-image1"
                           />
                           <div className="navbar-final-content3">
-                            <span>
+                            <span className="navbar-final-page31 thq-body-large">
                               {props.page31 ?? (
                                 <Fragment>
-                                  <span className="navbar-final-text27 thq-body-large">
+                                  <span className="navbar-final-text27">
                                     Our Work
                                   </span>
                                 </Fragment>
@@ -271,19 +262,19 @@ const NavbarFinal = (props) => {
                             className="navbar-final-page4-image1"
                           />
                           <div className="navbar-final-content4">
-                            <span>
+                            <span className="navbar-final-page41 thq-body-large">
                               {props.page41 ?? (
                                 <Fragment>
-                                  <span className="navbar-final-text16 thq-body-large">
+                                  <span className="navbar-final-text16">
                                     Page Four
                                   </span>
                                 </Fragment>
                               )}
                             </span>
-                            <span>
+                            <span className="thq-body-small">
                               {props.page4Description ?? (
                                 <Fragment>
-                                  <span className="navbar-final-text32 thq-body-small">
+                                  <span className="navbar-final-text32">
                                     Page Four Description
                                   </span>
                                 </Fragment>
@@ -350,12 +341,10 @@ const NavbarFinal = (props) => {
                     className="navbar-final-page1-image2 thq-img-ratio-1-1"
                   />
                   <div className="navbar-final-content5">
-                    <span>
+                    <span className="navbar-final-page12 thq-body-large">
                       {props.page1 ?? (
                         <Fragment>
-                          <span className="navbar-final-text24 thq-body-large">
-                            Overview
-                          </span>
+                          <span className="navbar-final-text24">Overview</span>
                         </Fragment>
                       )}
                     </span>
@@ -370,12 +359,10 @@ const NavbarFinal = (props) => {
                     className="navbar-final-page2-image2 thq-img-ratio-1-1"
                   />
                   <div className="navbar-final-content6">
-                    <span>
+                    <span className="navbar-final-page22 thq-body-large">
                       {props.page2 ?? (
                         <Fragment>
-                          <span className="navbar-final-text17 thq-body-large">
-                            Culture
-                          </span>
+                          <span className="navbar-final-text17">Culture</span>
                         </Fragment>
                       )}
                     </span>
@@ -390,12 +377,10 @@ const NavbarFinal = (props) => {
                     className="navbar-final-page3-image2 thq-img-ratio-1-1"
                   />
                   <div className="navbar-final-content7">
-                    <span>
+                    <span className="navbar-final-page32 thq-body-large">
                       {props.page3 ?? (
                         <Fragment>
-                          <span className="navbar-final-text20 thq-body-large">
-                            Our Work
-                          </span>
+                          <span className="navbar-final-text20">Our Work</span>
                         </Fragment>
                       )}
                     </span>
@@ -410,12 +395,10 @@ const NavbarFinal = (props) => {
                     className="navbar-final-page4-image2 thq-img-ratio-1-1"
                   />
                   <div className="navbar-final-content8">
-                    <span>
+                    <span className="navbar-final-page42 thq-body-large">
                       {props.page4 ?? (
                         <Fragment>
-                          <span className="navbar-final-text30 thq-body-large">
-                            Page Four
-                          </span>
+                          <span className="navbar-final-text30">Page Four</span>
                         </Fragment>
                       )}
                     </span>

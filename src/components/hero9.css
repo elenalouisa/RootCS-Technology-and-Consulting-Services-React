@@ -50,16 +50,6 @@
 }
  
 .hero9-text2 {
-  fill: var(--dl-color-theme-neutral-light);
-  color: var(--dl-color-theme-neutral-light);
-  text-align: center;
-}
- 
-.hero9-text3 {
-  display: inline-block;
-}
- 
-.hero9-text4 {
   display: inline-block;
 }
  
@@ -79,11 +69,6 @@
     color: var(--dl-color-theme-neutral-light);
     font-family: Exo 2;
   }
-  .hero9-text2 {
-    fill: var(--dl-color-theme-neutral-light);
-    color: var(--dl-color-theme-neutral-light);
-    font-family: Exo 2;
-  }
   .hero9root-class-name {
     background-color: var(--dl-color-theme-neutral-dark);
   }
@@ -91,9 +76,6 @@
  
 @media(max-width: 991px) {
   .hero9-text1 {
-    text-align: center;
-  }
-  .hero9-text2 {
     text-align: center;
   }
 }

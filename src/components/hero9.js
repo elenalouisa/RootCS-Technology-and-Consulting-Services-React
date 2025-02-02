@@ -20,21 +20,10 @@ const Hero9 = (props) => {
           <h1 className="hero9-text1 thq-heading-1">
             {props.heading1 ?? (
               <Fragment>
-                <span className="hero9-text3">Our Services</span>
+                <span className="hero9-text2">Our Services</span>
               </Fragment>
             )}
           </h1>
-          <p className="hero9-text2 thq-body-large">
-            {props.content1 ?? (
-              <Fragment>
-                <span className="hero9-text4">
-                  Guiding organizations through digital transformation journeys
-                  with tailored solutions for cloud services, ERP, CRM, and big
-                  data integration.
-                </span>
-              </Fragment>
-            )}
-          </p>
         </div>
       </div>
     </div>
@@ -43,7 +32,6 @@ const Hero9 = (props) => {
 
 Hero9.defaultProps = {
   heading1: undefined,
-  content1: undefined,
   rootClassName: '',
   image1Src:
     'https://images.unsplash.com/photo-1661439089979-d3ed0609a457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzg0NTcwNnw&ixlib=rb-4.0.3&q=80&w=1500',
@@ -52,7 +40,6 @@ Hero9.defaultProps = {
 
 Hero9.propTypes = {
   heading1: PropTypes.element,
-  content1: PropTypes.element,
   rootClassName: PropTypes.string,
   image1Src: PropTypes.string,
   image1Alt: PropTypes.string,

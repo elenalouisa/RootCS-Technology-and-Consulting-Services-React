@@ -1,5 +1,5 @@
 {
-  "name": "rootcs-technology-and-consulting-services",
+  "name": "root-technology-and-consulting-services",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "eject": "craco eject"
   },
   "engines": {
-    "node": "22.x"
+    "node": ">=18.x"
   },
   "browserslist": {
     "production": [

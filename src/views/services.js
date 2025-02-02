@@ -109,19 +109,10 @@ const Services = (props) => {
         <div className="services-container3"></div>
       </div>
       <Hero9
-        content1={
-          <Fragment>
-            <span className="services-text25">
-              Guiding organizations through digital transformation journeys with
-              tailored solutions for cloud services, ERP, CRM, and big data
-              integration.
-            </span>
-          </Fragment>
-        }
         heading1={
           <Fragment>
-            <span className="services-text26">
-              <span className="services-text27">Our Services</span>
+            <span className="services-text25">
+              <span className="services-text26">Our Services</span>
               <br></br>
             </span>
           </Fragment>
@@ -131,30 +122,30 @@ const Services = (props) => {
       <Features1
         sectionTitle={
           <Fragment>
-            <span className="services-text29">Key Features</span>
+            <span className="services-text28">Key Features</span>
           </Fragment>
         }
         feature1Title={
           <Fragment>
-            <span className="services-text30">Guidance &amp; Insight</span>
+            <span className="services-text29">Guidance &amp; Insight</span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="services-text31">
+            <span className="services-text30">
               Strategy &amp; Implementation
             </span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="services-text32">Continuous Partnership</span>
+            <span className="services-text31">Continuous Partnership</span>
           </Fragment>
         }
         rootClassName="features1root-class-name"
         sectionDescription={
           <Fragment>
-            <span className="services-text33">
+            <span className="services-text32">
               Root Consulting Services is dedicated to driving business value by
               aligning technology with your strategic objectives. Our approach
               centers on three key focus areas that ensure every solution we
@@ -165,7 +156,7 @@ const Services = (props) => {
         }
         feature1Description={
           <Fragment>
-            <span className="services-text34">
+            <span className="services-text33">
               We believe that true transformation begins with understanding. We
               don’t just implement new technologies—we educate your team on the
               underlying principles, best practices, and the “why” behind every
@@ -177,7 +168,7 @@ const Services = (props) => {
         }
         feature2Description={
           <Fragment>
-            <span className="services-text35">
+            <span className="services-text34">
               We recognize that no two organizations are the same. That’s why we
               work closely with you to develop customized strategies that are
               specifically aligned with your unique needs and goals. From
@@ -189,7 +180,7 @@ const Services = (props) => {
         }
         feature3Description={
           <Fragment>
-            <span className="services-text36">
+            <span className="services-text35">
               Our partnership extends well beyond initial implementation. We are
               dedicated to nurturing the maturity of your solutions over time.
               We provide ongoing guidance and support to help you evolve and
@@ -204,7 +195,7 @@ const Services = (props) => {
       <ContentList11
         content1={
           <Fragment>
-            <span className="services-text37">
+            <span className="services-text36">
               Root Consulting Services offers customized solutions to support
               businesses in their digital transformation journey. No matter the
               technology, we provide tailored strategies to meet your specific
@@ -214,7 +205,7 @@ const Services = (props) => {
         }
         content2={
           <Fragment>
-            <span className="services-text38">
+            <span className="services-text37">
               Our strategy consulting service lays the foundation for
               transformative change. We conduct thorough assessments with
               business industry experts and IT enterprise architects to
@@ -227,7 +218,7 @@ const Services = (props) => {
         }
         content3={
           <Fragment>
-            <span className="services-text39">
+            <span className="services-text38">
               We specialize in modernizing your existing systems and
               implementing new technologies that propel your business forward.
               Whether it’s upgrading legacy systems or integrating ERP/CRM
@@ -239,7 +230,7 @@ const Services = (props) => {
         }
         content4={
           <Fragment>
-            <span className="services-text40">
+            <span className="services-text39">
               Our process optimization service leverages advanced analytics and
               business intelligence to identify inefficiencies and unlock hidden
               value within your operations. By re-engineering workflows and
@@ -251,7 +242,7 @@ const Services = (props) => {
         }
         content5={
           <Fragment>
-            <span className="services-text41">
+            <span className="services-text40">
               Stay ahead of the technological curve with our future technologies
               service. We help you explore and integrate emerging
               technologies—such as artificial intelligence, machine learning,
@@ -264,7 +255,7 @@ const Services = (props) => {
         }
         content6={
           <Fragment>
-            <span className="services-text42">
+            <span className="services-text41">
               At Root, we’re committed to providing services that are as unique
               as your business. Our tailored solutions are designed to deliver
               measurable results, ensuring that every aspect of your digital
@@ -277,31 +268,31 @@ const Services = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="services-text43">Tailored Solutions</span>
+            <span className="services-text42">Tailored Solutions</span>
           </Fragment>
         }
         heading2={
           <Fragment>
-            <span className="services-text44">Strategy Consulting</span>
+            <span className="services-text43">Strategy Consulting</span>
           </Fragment>
         }
         heading3={
           <Fragment>
-            <span className="services-text45">
+            <span className="services-text44">
               Implementation &amp; Modernization
             </span>
           </Fragment>
         }
         heading4={
           <Fragment>
-            <span className="services-text46">
+            <span className="services-text45">
               Process Optimization &amp; Analytics
             </span>
           </Fragment>
         }
         heading5={
           <Fragment>
-            <span className="services-text47">
+            <span className="services-text46">
               Future Technologies
               <span
                 dangerouslySetInnerHTML={{
@@ -313,7 +304,7 @@ const Services = (props) => {
         }
         heading6={
           <Fragment>
-            <span className="services-text48">
+            <span className="services-text47">
               Get Started on Your Digital Transformation Journey
             </span>
           </Fragment>
@@ -322,12 +313,12 @@ const Services = (props) => {
       <CTA26
         action1={
           <Fragment>
-            <span className="services-text49">Get in touch</span>
+            <span className="services-text48">Get in touch</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="services-text50">
+            <span className="services-text49">
               Contact us today to explore how Root Consulting Services can
               enhance your digital transformation.
             </span>
@@ -335,7 +326,7 @@ const Services = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="services-text51">
+            <span className="services-text50">
               Ready to transform your business?
             </span>
           </Fragment>
@@ -345,17 +336,17 @@ const Services = (props) => {
       <Footer4
         link1={
           <Fragment>
-            <span className="services-text52">Services</span>
+            <span className="services-text51">Services</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="services-text53">About Us</span>
+            <span className="services-text52">About Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="services-text54">Contact Us</span>
+            <span className="services-text53">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

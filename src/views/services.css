@@ -81,7 +81,7 @@
   display: inline-block;
 }
  
-.services-text26 {
+.services-text28 {
   display: inline-block;
 }
  
@@ -185,18 +185,14 @@
   display: inline-block;
 }
  
-.services-text54 {
-  display: inline-block;
-}
- 
 @media(max-width: 991px) {
-  .services-text27 {
+  .services-text26 {
     text-align: center;
   }
 }
  
 @media(max-width: 479px) {
-  .services-text27 {
+  .services-text26 {
     color: var(--dl-color-theme-neutral-light);
   }
 }
